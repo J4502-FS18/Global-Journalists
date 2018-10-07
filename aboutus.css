@@ -1,10 +1,9 @@
 html {
-	background-color: black; 
+	background-color: black;
 }
 
-
 p {
-	color: black;
+	color: white;
     font-family: Helvetica, Arial, sans-serif;
 		text-align: center;
 }
@@ -14,13 +13,19 @@ h1 {
 		font-style: normal;
 		text-align: center;
 		font-stretch: extra-expanded;
+		color: white;
 
+}
+
+iframe {
+		align-items: center;
 }
 
 h2 {
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: normal;
 	text-align: center;
+	color: white;
 }
 
 #navbar{
