@@ -18,7 +18,8 @@ h1 {
 }
 
 iframe {
-		box-sizing: border-box;
+		box-sizing: border-box: white; 
+
 }
 
 h2 {
