@@ -2,7 +2,6 @@ html {
 	background-color: black;
 }
 
-
 p {
 	color: white;
     font-family: Helvetica, Arial, sans-serif;
@@ -16,6 +15,10 @@ h1 {
 		font-stretch: extra-expanded;
 		color: white;
 
+}
+
+iframe {
+		box-sizing: border-box;
 }
 
 h2 {
