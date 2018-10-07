@@ -2,10 +2,13 @@
 p {
 	color: black;
     font-family: Helvetica, Arial, sans-serif;
+		text-align: center;
 }
 
 h1 {
     font-family: Georgia, "Times New Roman", serif;
+		font-style: normal;
+		text-align: center;
 }
 
 #navbar{
