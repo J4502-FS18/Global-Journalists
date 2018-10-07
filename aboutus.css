@@ -9,6 +9,8 @@ h1 {
     font-family: Georgia, "Times New Roman", serif;
 		font-style: normal;
 		text-align: center;
+		font-stretch: extra-expanded;
+
 }
 
 h2 {
