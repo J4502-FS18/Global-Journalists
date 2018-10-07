@@ -41,6 +41,10 @@ h1 {
 		color: black
 }
 
+#navbar {
+	flow: left;
+}
+
 .caption {
     color: black;
     font-family: Georgia, "Times New Roman", serif;
@@ -66,7 +70,7 @@ h1 {
 
 /* Links inside the navbar */
 .navbar a {
-  float: right;
+  float: left;
   font-size: 16px;
   color: white;
   text-align: center;
