@@ -24,9 +24,6 @@ h1 {
 	  border-bottom: 1px solid black;
 }
 
-li {
-	float: right;
-}
 
 #navbar a:link, #navbar a:visited {
 	  display:block;
@@ -60,10 +57,6 @@ li {
     border-top: 1px solid black;
 }
 
-img {
-	border: none;
-}
-
 /* Navbar container */
 .navbar {
   overflow: hidden;
@@ -73,7 +66,7 @@ img {
 
 /* Links inside the navbar */
 .navbar a {
-  float: left;
+  float: right;
   font-size: 16px;
   color: white;
   text-align: center;
@@ -113,7 +106,7 @@ img {
 	font-size: 16px;
 	border: none;
 	outline: none;
-	color: white; 
+	color: white;
 	padding: 14px 16px;
 	background-color: inherit;
 	font-family: inherit; /* Important for vertical align on mobile phones */
