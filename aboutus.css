@@ -4,7 +4,7 @@ html {
 
 p {
 	color: white;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif, serif;
 		text-align: center;
 }
 
@@ -67,7 +67,7 @@ h2 {
 
 .caption {
     color: black;
-    font-family: sans-serif, "Times New Roman", serif;
+    font-family: 'Open Sans', sans-serif, serif;
     font-style: italic;
     font-size: 0.8em;
     margin-top: 0;
@@ -76,7 +76,7 @@ h2 {
 
 #footer {
     color: black;
-    font-family: sans-serif, "Times New Roman", serif;
+    font-family: 'Open Sans', sans-serif, serif;
     font-size: 0.8em;
     border-top: 1px solid black;
 }
