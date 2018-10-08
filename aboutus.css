@@ -8,6 +8,11 @@ img {
 	height: 100%;
 }
 
+img {
+  border: none;
+  width: 100%;
+}
+
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
