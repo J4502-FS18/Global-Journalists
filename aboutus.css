@@ -14,6 +14,8 @@ h1 {
 		text-align: center;
 		font-stretch: extra-expanded;
 		color: white;
+		letter-spacing: 3px;
+		text-transform: capitalize;
 
 }
 
@@ -22,6 +24,8 @@ h2 {
 	font-style: normal;
 	text-align: center;
 	color: white;
+	letter-spacing: 3px;
+	text-transform: capitalize;
 }
 
 #navbar{
