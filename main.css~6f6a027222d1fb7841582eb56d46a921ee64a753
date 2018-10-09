@@ -1,27 +1,58 @@
 html {
 	background-color: black;
+	font-size: 100%;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+img {
+  border: none;
+  width: 100%;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: right;
 }
 
 p {
 	color: white;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif, serif;
 		text-align: center;
 }
 
 h1 {
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: sans-serif, "Times New Roman", serif;
 		font-style: normal;
 		text-align: center;
 		font-stretch: extra-expanded;
 		color: white;
+		letter-spacing: 30px;
+		text-transform: capitalize;
 
 }
 
 h2 {
-	font-family: Georgia, "Times New Roman", serif;
+	font-family: sans-serif, "Times New Roman", serif;
 	font-style: normal;
 	text-align: center;
 	color: white;
+	letter-spacing: 3px;
+	text-transform: capitalize;
 }
 
 #navbar{
@@ -49,7 +80,7 @@ h2 {
     text-align:center;
     text-decoration: none;
     padding: 4px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: sans-serif, Arial,serif;
 }
 
 #navbar a:hover, #navbar a:active {
@@ -63,7 +94,7 @@ h2 {
 
 .caption {
     color: black;
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: 'Open Sans', sans-serif, serif;
     font-style: italic;
     font-size: 0.8em;
     margin-top: 0;
@@ -72,7 +103,7 @@ h2 {
 
 #footer {
     color: black;
-    font-family: Georgia, "Times New Roman", serif;
+    font-family: 'Open Sans', sans-serif, serif;
     font-size: 0.8em;
     border-top: 1px solid black;
 }
