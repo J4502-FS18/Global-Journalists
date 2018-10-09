@@ -1,40 +1,5 @@
 html {
 	background-color: black;
-<<<<<<< HEAD
-	font-size: 100%;
-}
-
-img {
-	width: 100%;
-	height: 100%;
-}
-
-img {
-  border: none;
-  width: 100%;
-}
-
-button {
-	border-top: blue
-	text: large;
-}
-.videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 25px;
-  height: 0;
-	margin-bottom: 30px;
-}
-
-.videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	border: right;
-=======
->>>>>>> 85f01529625358506a0e89a4ce586a906a76c353
 }
 
 p {
@@ -47,10 +12,8 @@ h1 {
     font-family: Georgia, "Times New Roman", serif;
 		font-style: normal;
 		text-align: center;
-		font-stretch: semi-expanded;
+		font-stretch: extra-expanded;
 		color: white;
-		letter-spacing: 3px;
-		text-transform: capitalize;
 
 }
 
@@ -59,20 +22,11 @@ h2 {
 	font-style: normal;
 	text-align: center;
 	color: white;
-	font-stretch: semi-expanded;
-	letter-spacing: 3px;
-}
-
-.button1 {
-    background-color: white;
-    color: black;
-    border: 2px solid #4CAF50; /* Green */
 }
 
 #navbar{
     width: 95%;
     margin: 0 auto;
-		text-align: center;
 }
 
 #navbar {
@@ -192,15 +146,15 @@ h2 {
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .aboutus {
-  background-color: blue;
+  background-color: red;
 }
 
 .navbar a:hover, .dropdown2:hover .countryregion {
-	background-color: hsl(39, 100%, 50%);
+	background-color: red;
 }
 
 .navbar a:hover, .dropdown3:hover .freepress {
-	background-color: green;
+	background-color: red;
 }
 
 /* Dropdown content (hidden by default) */
