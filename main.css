@@ -38,7 +38,7 @@ p {
 h1 {
     font-family: sans-serif, "Times New Roman", serif;
 		font-style: normal;
-		text-align: left;
+		text-align: center;
 		font-stretch: semi-expanded;
 		color: white;
 		letter-spacing: 3px;
@@ -58,6 +58,7 @@ h2 {
 #navbar{
     width: 95%;
     margin: 0 auto;
+		text-align: center;
 }
 
 #navbar {
