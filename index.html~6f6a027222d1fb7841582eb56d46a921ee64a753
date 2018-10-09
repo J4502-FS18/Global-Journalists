@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns="http://www.globaljournalist.org/aboutus/xhtml">
+
+<img src="http://globaljournalist.org/wp-content/uploads/2014/09/header_gj_3.png" alt="Global Journalist logo" width=800 height="110" data-retina-src="http://globaljournalist.org/wp-content/uploads/2014/09/header_gj_3@2x.png" scale="0">
+
+<head>
+	<title>Homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	  <link rel="stylesheet" type="text/css" href="main.css">
+	</head>
+
+<body>
+		<div class="navbar">
+		  <div class="dropdown">
+		    <button class="aboutus">About Us
+		      <i class="fa fa-caret-down"></i>
+		    </button>
+		    <div class="dropdown-content">
+		      <a href="#what we do">What We Do & Why</a>
+		      <a href="#Masthead">Masthead</a>
+		      <a href="#Our Partners">Our Partners</a>
+		    </div>
+		  </div>
+		<div class="dropdown2">
+			<button class="countryregion">Country/Region
+				 <i class="fa fa-caret-down"></i>
+			 </button>
+			 <div class="dropdown-content2">
+				 <a href="featured">Featured</a>
+				 <a href="second featured">Second Featured</a>
+				 <a herf="search all">Search All</a>
+			 </div>
+		</div>
+		<div class="dropdown3">
+			<button class="freepress">Free Press
+				 <i class="fa fa-caret-down"></i>
+			 </button>
+			 <div class="dropdown-content3">
+				 <a href="spotlight">Spotlight</a>
+				 <a href="around the world">Around the World</a>
+				 <a herf="see all">See All</a>
+			 </div>
+		</div>
+	</div>
+
+
+		<h1>Spotlight Story</h1>
+
+		<div class="cb-feature-1">
+		   <div class="cb-grid-img" style="display: block;">
+		      <a href="https://globaljournalist.org/2018/10/impunity-in-myanmar-program/"><img width=100% src="https://globaljournalist.org/wp-content/uploads/2018/10/h_54580672-1-600x400.jpg" class="attachment-cb-600-400 size-cb-600-400 wp-post-image" alt="" srcset="https://globaljournalist.org/wp-content/uploads/2018/10/h_54580672-1-600x400.jpg 600w, https://globaljournalist.org/wp-content/uploads/2018/10/h_54580672-1-300x200.jpg 300w, https://globaljournalist.org/wp-content/uploads/2018/10/h_54580672-1-768x512.jpg 768w, https://globaljournalist.org/wp-content/uploads/2018/10/h_54580672-1-1024x683.jpg 1024w, https://globaljournalist.org/wp-content/uploads/2018/10/h_54580672-1-360x240.jpg 360w" sizes="(max-width: 600px) 100vw, 600px"></a>
+				 </div>
+
+<div class="videoWrapper">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/6BIZ7b0m-08" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+
+<h2>Right Now Around the Globe</h2>
+
+  </body>
+  </html>
