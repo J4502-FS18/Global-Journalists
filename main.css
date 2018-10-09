@@ -177,15 +177,15 @@ h2 {
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .aboutus {
-  background-color: red;
+  background-color: blue;
 }
 
 .navbar a:hover, .dropdown2:hover .countryregion {
-	background-color: red;
+	background-color: hsl(39, 100%, 50%);
 }
 
 .navbar a:hover, .dropdown3:hover .freepress {
-	background-color: red;
+	background-color: green;
 }
 
 /* Dropdown content (hidden by default) */
