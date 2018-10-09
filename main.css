@@ -38,10 +38,10 @@ p {
 h1 {
     font-family: sans-serif, "Times New Roman", serif;
 		font-style: normal;
-		text-align: center;
-		font-stretch: extra-expanded;
+		text-align: left;
+		font-stretch: semi-expanded;
 		color: white;
-		letter-spacing: 30px;
+		letter-spacing: 3px;
 		text-transform: capitalize;
 
 }
