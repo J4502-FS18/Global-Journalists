@@ -14,6 +14,10 @@ img {
   width: 100%;
 }
 
+button {
+	border-top: blue
+	text: large; 
+}
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
