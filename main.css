@@ -1,8 +1,47 @@
 html {
 	background-color: black;
 	font-size: 100%;
+	font-family: sans-serif;
 }
 
+#hp-content {
+	background: white;
+	min-height: 200px;
+	box-sizing: border-box;
+	display: center;
+}
+.wrap {
+	width: 310px;
+	margin: 0 auto;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+div {
+	display: block;
+}
+
+.clearfix:before .clearfix:after {
+	display: table;
+}
+
+h1 {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: normal;
+	text-align: center;
+	font-stretch: semi-expanded;
+	color: black;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-size: 15px;
+}
+
+.podcast {
+
+}
+/* section 1 that i took out
 img {
 	width: 100%;
 	height: 100%;
@@ -13,11 +52,83 @@ img {
   width: 100%;
 }
 
+img .Ethiopia {
+	border: solid;
+	border-top: solid;
+	border-bottom: solid;
+	border-color: white;
+}
+
+img .Turkey {
+	border: solid;
+	border-color: white;
+} */
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* section 2 that i took out
+.right {
+	display: block;
+	margin-left: auto;
+	margin-right: 0;
+	width: 50%;
+}
+
+#spotlightstory {
+    max-width: 100px;
+    height: 190px;
+	border-bottom: 3px solid;
+		border-color: white;
+}
+
+#spotlightstory a:hover a:active {
+
+}
+
+#africa {
+	max-width: 100px;
+	height: 190px;
+	border-bottom: 3px solid;
+	border-color: white;
+}
+
+#turkey {
+	max-width: 100px;
+	height: 190px;
+	border-bottom: 3px solid;
+	border-color: white;
+}
+
+#ourpartners {
+	max-width: 150px;
+	height: 100px;
+}
+
+.photo_aside {
+  width: 50%;
+  float: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	align: right;
+}
+
+button {
+	border-top: blue
+	text: large;
+}
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 25px;
   height: 0;
+	margin-bottom: 30px;
+	border-bottom: 3px solid;
+	border-color: white;
 }
 
 .videoWrapper iframe {
@@ -27,37 +138,128 @@ img {
 	width: 100%;
 	height: 100%;
 	border: right;
-}
+} */
 
 p {
-	color: white;
-    font-family: 'Open Sans', sans-serif, serif;
+	color: black;
+    font-family: Helvetica, Arial, sans-serif;
 		text-align: center;
 }
 
 h1 {
-    font-family: sans-serif, "Times New Roman", serif;
+    font-family: Georgia, "Times New Roman", serif;
 		font-style: normal;
 		text-align: center;
-		font-stretch: extra-expanded;
-		color: white;
-		letter-spacing: 30px;
+		font-stretch: semi-expanded;
+		color: black;
+		letter-spacing: 1px;
 		text-transform: capitalize;
+		font-size: 15px;
 
 }
 
 h2 {
-	font-family: sans-serif, "Times New Roman", serif;
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: normal;
+	text-align: center;
+	color: black;
+	font-stretch: semi-expanded;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-size: 15px;
+}
+
+h4 {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: normal;
+	text-align: center;
+	color: black;
+	font-stretch: semi-expanded;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-size: 15px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif, serif;
+	font-style: normal;
+	text-align: center;
+	color: black;
+	font-stretch: semi-expanded;
+	letter-spacing: 1px;
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+/*
+li {
+	font-family: Georgia, "Times New Roman", serif;
 	font-style: normal;
 	text-align: center;
 	color: white;
-	letter-spacing: 3px;
-	text-transform: capitalize;
+	font-stretch: semi-expanded;
+	letter-spacing: 1px;
+	font-size: 15px;
+	text-decoration: underline;
 }
+*/
+p {
+	width: 100%;
+	color: white;
+	font-size: 15px;
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: normal;
+	text-align: center;
+	font-stretch: semi-expanded;
+	letter-spacing: 1px;
+}
+
+p a:link {
+	color: black;
+	text-decoration: none;
+}
+
+p a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+p {
+	border-style: solid;
+	border-color: black;
+}
+
+ {
+	display: inline-block;
+position: absolute;
+top: 0;
+right: 0;
+background: url(../images/black-50.png);
+background: rgba(0, 0, 0, 0.5);
+color: #f0f0f0;
+font-size: 10px;
+padding: 2px 10px;
+z-index: 2;
+}
+
+
+/* li {
+	margin: 0;
+	padding: 0;
+border-bottom: 3px white;
+border-top: 4px white;
+border-right: 4px white;
+border-left: 4px white;
+border-style: double;
+border-color: white;
+text-decoration: none;
+background-color:white;
+} */
 
 #navbar{
     width: 95%;
     margin: 0 auto;
+		text-align: center;
 }
 
 #navbar {
@@ -80,7 +282,7 @@ h2 {
     text-align:center;
     text-decoration: none;
     padding: 4px;
-    font-family: sans-serif, Arial,serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 #navbar a:hover, #navbar a:active {
@@ -92,21 +294,22 @@ h2 {
 	flow: left;
 }
 
+/* section 4 that i took out
 .caption {
     color: black;
-    font-family: 'Open Sans', sans-serif, serif;
+    font-family: Georgia, "Times New Roman", serif;
     font-style: italic;
     font-size: 0.8em;
     margin-top: 0;
     text-align: right;
 }
-
+/*
 #footer {
     color: black;
-    font-family: 'Open Sans', sans-serif, serif;
+    font-family: Georgia, "Times New Roman", serif;
     font-size: 0.8em;
     border-top: 1px solid black;
-}
+} */
 
 /* Navbar container */
 .navbar {
@@ -177,15 +380,15 @@ h2 {
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .aboutus {
-  background-color: red;
+  background-color: blue;
 }
 
 .navbar a:hover, .dropdown2:hover .countryregion {
-	background-color: red;
+	background-color: hsl(39, 100%, 50%);
 }
 
 .navbar a:hover, .dropdown3:hover .freepress {
-	background-color: red;
+	background-color: green;
 }
 
 /* Dropdown content (hidden by default) */
