@@ -173,6 +173,17 @@ h2 {
 	font-size: 15px;
 }
 
+h3 {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: normal;
+	text-align: center;
+	color: black;
+	font-stretch: semi-expanded;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-size: 15px;
+}
+
 h4 {
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: normal;
