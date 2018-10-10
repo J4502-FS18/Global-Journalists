@@ -20,13 +20,10 @@ html {
 
 
 body a:link {
-	text-decoration: none;
+	text-decoration: underline;
 	color: black;
 }
 
-#spotlightstorymeta {
-	color: black;
-}
 
 .wrap {
 	width: 310px;
