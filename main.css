@@ -33,8 +33,6 @@ button {
 	width: 100%;
 	height: 100%;
 	border: right;
-=======
->>>>>>> 85f01529625358506a0e89a4ce586a906a76c353
 }
 
 p {
@@ -49,20 +47,60 @@ h1 {
 		text-align: center;
 		font-stretch: semi-expanded;
 		color: white;
-		letter-spacing: 3px;
+		letter-spacing: 1px;
 		text-transform: capitalize;
+		font-size: 15px;
 
 }
 
-h2 {
+/* h2 {
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: normal;
 	text-align: center;
 	color: white;
 	font-stretch: semi-expanded;
-	letter-spacing: 3px;
+	letter-spacing: 1px;
+	font-size: 15px;
+} */
+
+p {
+	width: 100%;
+	color: white;
+	font-size: 15px;
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: normal;
+	text-align: center;
+	font-stretch: semi-expanded;
+	letter-spacing: 1px;
 }
 
+p a:link {
+	color: white;
+	text-decoration: none;
+}
+
+p a:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+p {
+	border-style: solid;
+	border-color: white;
+}
+
+/* li {
+	margin: 0;
+	padding: 0;
+border-bottom: 3px white;
+border-top: 4px white;
+border-right: 4px white;
+border-left: 4px white;
+border-style: double;
+border-color: white;
+text-decoration: none;
+background-color:white;
+} */
 
 #navbar{
     width: 95%;
