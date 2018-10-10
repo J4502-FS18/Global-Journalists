@@ -205,6 +205,22 @@ h4 {
 	font-size: 15px;
 }
 
+h5 {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: normal;
+	text-align: center;
+	color: black;
+	font-stretch: semi-expanded;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-size: 15px;
+}
+
+h1 a {
+	color: black;
+	text-decoration: none;
+}
+
 body {
 	font-family: 'Open Sans', sans-serif, serif;
 	font-style: normal;
