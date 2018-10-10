@@ -10,7 +10,7 @@ img {
 }
 
 img {
-  border: none; 
+  border: none;
   width: 100%;
 }
 
@@ -76,7 +76,7 @@ h2 {
 	font-size: 15px;
 }
 
-li {
+body {
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: normal;
 	text-align: center;
@@ -84,6 +84,16 @@ li {
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
 	font-size: 10px;
+}
+
+li {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: normal;
+	text-align: center;
+	color: white;
+	font-stretch: semi-expanded;
+	letter-spacing: 1px;
+	font-size: 15px;
 	text-decoration: underline;
 }
 p {
