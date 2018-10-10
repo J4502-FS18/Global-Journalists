@@ -10,6 +10,24 @@ html {
 	box-sizing: border-box;
 	display: center;
 }
+
+#pc-content {
+	background: white;
+	min-height: 200px;
+	box-sizing: border-box;
+	display: center;
+}
+
+
+body a:link {
+	text-decoration: none;
+	color: black;
+}
+
+#spotlightstorymeta {
+	color: black;
+}
+
 .wrap {
 	width: 310px;
 	margin: 0 auto;
@@ -37,7 +55,6 @@ h1 {
 	text-transform: capitalize;
 	font-size: 15px;
 }
-
 
 /* section 1 that i took out
 img {
@@ -153,10 +170,20 @@ h1 {
 		letter-spacing: 1px;
 		text-transform: capitalize;
 		font-size: 15px;
-
 }
 
 h2 {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: normal;
+	text-align: center;
+	color: black;
+	font-stretch: semi-expanded;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-size: 15px;
+}
+
+h3 {
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: normal;
 	text-align: center;
@@ -189,7 +216,7 @@ body {
 	line-height: 1.5;
 }
 
-/* section 3 that i took out
+/*
 li {
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: normal;
@@ -199,8 +226,8 @@ li {
 	letter-spacing: 1px;
 	font-size: 15px;
 	text-decoration: underline;
-} */
-
+}
+*/
 p {
 	width: 100%;
 	color: black;
@@ -301,7 +328,7 @@ background-color:white;
     margin-top: 0;
     text-align: right;
 }
-
+/*
 #footer {
     color: black;
     font-family: Georgia, "Times New Roman", serif;
