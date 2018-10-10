@@ -23,11 +23,22 @@ img .Turkey {
 	border-color: white;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 #spotlightstory {
     max-width: 250px;
     height: 150px;
 		border: solid;
 		border-color: white;
+}
+
+#spotlightstory a:hover a:active {
+	color: white;
 }
 
 #africa {
