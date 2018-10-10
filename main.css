@@ -1,8 +1,45 @@
 html {
 	background-color: black;
 	font-size: 100%;
+	font-family: sans-serif;
 }
 
+#hp-content {
+	background: white;
+	min-height: 200px;
+	box-sizing: border-box;
+	display: center;
+}
+.wrap {
+	width: 310px;
+	margin: 0 auto;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+div {
+	display: block;
+}
+
+.clearfix:before .clearfix:after {
+	display: table;
+}
+
+.spotlightstorymeta {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: normal;
+	text-align: center;
+	font-stretch: semi-expanded;
+	color: black;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-size: 15px;
+}
+
+
+/* section 1 that i took out
 img {
 	width: 100%;
 	height: 100%;
@@ -15,13 +52,15 @@ img {
 
 img .Ethiopia {
 	border: solid;
+	border-top: solid;
+	border-bottom: solid;
 	border-color: white;
 }
 
 img .Turkey {
 	border: solid;
 	border-color: white;
-}
+} */
 
 .center {
     display: block;
@@ -30,6 +69,7 @@ img .Turkey {
     width: 50%;
 }
 
+/* section 2 that i took out
 .right {
 	display: block;
 	margin-left: auto;
@@ -38,9 +78,9 @@ img .Turkey {
 }
 
 #spotlightstory {
-    max-width: 250px;
-    height: 150px;
-		border: solid;
+    max-width: 100px;
+    height: 190px;
+	border-bottom: 3px solid;
 		border-color: white;
 }
 
@@ -49,16 +89,16 @@ img .Turkey {
 }
 
 #africa {
-	max-width: 250px;
-	height: 150px;
-	border: solid;
+	max-width: 100px;
+	height: 190px;
+	border-bottom: 3px solid;
 	border-color: white;
 }
 
 #turkey {
-	max-width: 250px;
-	height: 150px;
-	border: solid;
+	max-width: 100px;
+	height: 190px;
+	border-bottom: 3px solid;
 	border-color: white;
 }
 
@@ -85,7 +125,7 @@ button {
   padding-top: 25px;
   height: 0;
 	margin-bottom: 30px;
-	border: solid;
+	border-bottom: 3px solid;
 	border-color: white;
 }
 
@@ -96,10 +136,10 @@ button {
 	width: 100%;
 	height: 100%;
 	border: right;
-}
+} */
 
 p {
-	color: white;
+	color: black;
     font-family: Helvetica, Arial, sans-serif;
 		text-align: center;
 }
@@ -109,7 +149,7 @@ h1 {
 		font-style: normal;
 		text-align: center;
 		font-stretch: semi-expanded;
-		color: white;
+		color: black;
 		letter-spacing: 1px;
 		text-transform: capitalize;
 		font-size: 15px;
@@ -120,7 +160,7 @@ h2 {
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: normal;
 	text-align: center;
-	color: white;
+	color: black;
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
 	text-transform: capitalize;
@@ -131,7 +171,7 @@ h4 {
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: normal;
 	text-align: center;
-	color: white;
+	color: black;
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
 	text-transform: capitalize;
@@ -139,15 +179,17 @@ h4 {
 }
 
 body {
-	font-family: Georgia, "Times New Roman", serif;
+	font-family: 'Open Sans', sans-serif, serif;
 	font-style: normal;
 	text-align: center;
-	color: white;
+	color: black;
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
-	font-size: 10px;
+	font-size: 13px;
+	line-height: 1.5;
 }
 
+/* section 3 that i took out
 li {
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: normal;
@@ -157,10 +199,11 @@ li {
 	letter-spacing: 1px;
 	font-size: 15px;
 	text-decoration: underline;
-}
+} */
+
 p {
 	width: 100%;
-	color: white;
+	color: black;
 	font-size: 15px;
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: normal;
@@ -170,18 +213,18 @@ p {
 }
 
 p a:link {
-	color: white;
+	color: black;
 	text-decoration: none;
 }
 
 p a:hover {
 	text-decoration: underline;
-	color: white;
+	color: black;
 }
 
 p {
 	border-style: solid;
-	border-color: white;
+	border-color: black;
 }
 
  {
@@ -249,6 +292,7 @@ background-color:white;
 	flow: left;
 }
 
+/* section 4 that i took out
 .caption {
     color: black;
     font-family: Georgia, "Times New Roman", serif;
@@ -263,7 +307,7 @@ background-color:white;
     font-family: Georgia, "Times New Roman", serif;
     font-size: 0.8em;
     border-top: 1px solid black;
-}
+} */
 
 /* Navbar container */
 .navbar {
