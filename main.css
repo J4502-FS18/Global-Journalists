@@ -10,6 +10,14 @@ html {
 	box-sizing: border-box;
 	display: center;
 }
+
+#pc-content {
+	background: white;
+	min-height: 200px;
+	box-sizing: border-box;
+	display: center;
+}
+
 .wrap {
 	width: 310px;
 	margin: 0 auto;
@@ -38,9 +46,6 @@ h1 {
 	font-size: 15px;
 }
 
-.podcast {
-
-}
 /* section 1 that i took out
 img {
 	width: 100%;
@@ -155,7 +160,6 @@ h1 {
 		letter-spacing: 1px;
 		text-transform: capitalize;
 		font-size: 15px;
-
 }
 
 h2 {
@@ -205,7 +209,7 @@ li {
 */
 p {
 	width: 100%;
-	color: white;
+	color: black;
 	font-size: 15px;
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: normal;
