@@ -18,6 +18,20 @@ html {
 	display: center;
 }
 
+body .hp-spotlightstory {
+	text-decoration: none;
+	color: black
+}
+
+body a:link {
+	color: black;
+	text-decoration: none;
+}
+
+.link {
+	color: black;
+}
+
 .wrap {
 	width: 310px;
 	margin: 0 auto;
