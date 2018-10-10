@@ -1,7 +1,7 @@
 html {
 	background-color: black;
-<<<<<<< HEAD
 	font-size: 100%;
+	text-align: center;
 }
 
 img {
@@ -22,6 +22,14 @@ img .Ethiopia {
 img .Turkey {
 	border: solid;
 	border-color: white;
+}
+
+.photo_aside {
+  width: 50%;
+  float: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	align: center;
 }
 
 button {
