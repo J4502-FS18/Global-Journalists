@@ -23,12 +23,38 @@ img .Turkey {
 	border-color: white;
 }
 
+#spotlightstory {
+    max-width: 250px;
+    height: 150px;
+		border: solid;
+		border-color: white;
+}
+
+#africa {
+	max-width: 250px;
+	height: 150px;
+	border: solid;
+	border-color: white;
+}
+
+#turkey {
+	max-width: 250px;
+	height: 150px;
+	border: solid;
+	border-color: white;
+}
+
+#ourpartners {
+	max-width: 150px;
+	height: 100px;
+}
+
 .photo_aside {
   width: 50%;
   float: center;
 	margin-left: 10px;
 	margin-right: 10px;
-	align: center;
+	align: right;
 }
 
 button {
