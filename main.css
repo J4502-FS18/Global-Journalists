@@ -8,7 +8,7 @@ html {
 	background: white;
 	min-height: 200px;
 	box-sizing: border-box;
-	display: center;
+	display: left;
 }
 
 }
@@ -29,7 +29,7 @@ html {
 
 body a:link {
 	text-decoration: underline;
-	color: black;
+	color: white;
 }
 
 .wrap {
@@ -173,7 +173,7 @@ button {
 p {
 	color: black;
     font-family: Helvetica, Arial, sans-serif;
-		text-align: center;
+		text-align: left;
 }
 
 h1 {
@@ -277,9 +277,10 @@ p {
 	font-size: 15px;
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: normal;
-	text-align: center;
+	text-align: left;
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
+	text-indent: 25px;
 }
 
 
