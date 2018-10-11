@@ -51,6 +51,39 @@ h1 {
 	font-size: 15px;
 }
 
+<<<<<<< HEAD
+.podcast {
+
+}
+
+.cb-feature-1{
+	font-family: Helvetica, "Times New Roman", serif;
+	font-style: normal;
+	text-align: center;
+	font-stretch: semi-expanded;
+	color: black;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-size: 20px;
+}
+
+
+=======
+>>>>>>> 15f88213460ea30746d6278414fb47dd7e37aa85
+
+.videoWrapper{
+	font-family: Helvetica, "Times New Roman", serif;
+	font-style: normal;
+	text-align: left;
+	font-stretch: semi-expanded;
+	color: black;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-size: 20px;
+}
+
+
+
 /* section 1 that i took out
 img {
 	width: 100%;
@@ -233,6 +266,10 @@ body {
 	text-decoration: none;
 }
 
+ul{
+	list-style: none;
+}
+
 #hp-turkey-body {
 	color: black;
 }
@@ -257,9 +294,10 @@ p {
 	font-size: 15px;
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: normal;
-	text-align: center;
+	text-align: left;
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
+	text-indent: 25px;
 }
 
 
