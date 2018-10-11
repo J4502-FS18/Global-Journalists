@@ -19,12 +19,6 @@ html {
 }
 
 
-body a:link {
-	text-decoration: underline;
-	color: black;
-}
-
-
 .wrap {
 	width: 310px;
 	margin: 0 auto;
