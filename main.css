@@ -304,6 +304,9 @@ p {
 	text-indent: 25px;
 }
 
+ul{
+	list-style: none;
+}
 
 p a:visited {
 	text-decoration: underline;
