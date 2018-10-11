@@ -11,15 +11,6 @@ html {
 	display: center;
 }
 
-}
-
-#pc-content {
-	background: white;
-	min-height: 200px;
-	box-sizing: border-box;
-	display: center;
-}
-
 #pc-content {
 	background: white;
 	min-height: 200px;
@@ -59,17 +50,6 @@ h1 {
 	text-transform: capitalize;
 	font-size: 15px;
 }
-
-#article-content {
-
-	background: white;
-	min-height: 200px;
-	display: align
-
-
-
-}
-
 
 /* section 1 that i took out
 img {
@@ -294,10 +274,6 @@ p a:hover {
 	color: black;
 }
 
-p {
-}
-
-
 #navbar{
     width: 95%;
     margin: 0 auto;
@@ -313,10 +289,6 @@ p {
     margin: 0;
     padding: 0;
 	  border-bottom: 1px solid black;
-}
-
-#navbar a:link {
-	color: black;
 }
 
 #navbar a:link, #navbar a:visited {
