@@ -10,6 +10,19 @@ html {
 	box-sizing: border-box;
 	display: center;
 }
+
+#pc-content {
+	background: white;
+	min-height: 200px;
+	box-sizing: border-box;
+	display: center;
+}
+
+body a:link {
+	text-decoration: underline;
+	color: white;
+}
+
 .wrap {
 	width: 310px;
 	margin: 0 auto;
@@ -38,6 +51,7 @@ h1 {
 	font-size: 15px;
 }
 
+<<<<<<< HEAD
 .podcast {
 
 }
@@ -52,6 +66,22 @@ h1 {
 	text-transform: capitalize;
 	font-size: 20px;
 }
+
+
+=======
+>>>>>>> 15f88213460ea30746d6278414fb47dd7e37aa85
+
+.videoWrapper{
+	font-family: Helvetica, "Times New Roman", serif;
+	font-style: normal;
+	text-align: left;
+	font-stretch: semi-expanded;
+	color: black;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-size: 20px;
+}
+
 
 
 /* section 1 that i took out
@@ -168,7 +198,6 @@ h1 {
 		letter-spacing: 1px;
 		text-transform: capitalize;
 		font-size: 15px;
-
 }
 
 h2 {
@@ -182,6 +211,18 @@ h2 {
 	font-size: 15px;
 }
 
+h3 {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: normal;
+	text-align: center;
+	color: black;
+	font-stretch: semi-expanded;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-size: 15px;
+	text-decoration: none;
+}
+
 h4 {
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: normal;
@@ -193,6 +234,24 @@ h4 {
 	font-size: 15px;
 }
 
+h5 {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: normal;
+	text-align: center;
+	color: black;
+	font-stretch: semi-expanded;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-size: 15px;
+}
+
+h1 a {
+	color: black;
+	text-decoration: none;
+}
+
+
+
 body {
 	font-family: 'Open Sans', sans-serif, serif;
 	font-style: normal;
@@ -202,7 +261,14 @@ body {
 	letter-spacing: 1px;
 	font-size: 13px;
 	line-height: 1.5;
+	text-decoration: none;
 }
+
+#hp-turkey-body {
+	color: black;
+}
+
+
 
 /*
 li {
@@ -218,7 +284,7 @@ li {
 */
 p {
 	width: 100%;
-	color: white;
+	color: black;
 	font-size: 15px;
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: normal;
@@ -227,9 +293,10 @@ p {
 	letter-spacing: 1px;
 }
 
-p a:link {
+
+p a:visited {
+	text-decoration: underline;
 	color: black;
-	text-decoration: none;
 }
 
 p a:hover {
@@ -288,9 +355,9 @@ background-color:white;
 
 
 #navbar a:link, #navbar a:visited {
-	  display:block;
-    color: white;
-    background-color: black;
+	  display: block;
+    color: black;
+    background-color: white;
     font-weight: bold;
     text-align:center;
     text-decoration: none;
@@ -430,6 +497,7 @@ background-color:white;
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
+	color: black;
 }
 
 /* Links inside the dropdown */
