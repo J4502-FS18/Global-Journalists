@@ -11,6 +11,15 @@ html {
 	display: center;
 }
 
+}
+
+#pc-content {
+	background: white;
+	min-height: 200px;
+	box-sizing: border-box;
+	display: center;
+}
+
 #pc-content {
 	background: white;
 	min-height: 200px;
@@ -50,6 +59,17 @@ h1 {
 	text-transform: capitalize;
 	font-size: 15px;
 }
+
+#article-content {
+
+	background: white;
+	min-height: 200px;
+	display: align
+
+
+
+}
+
 
 /* section 1 that i took out
 img {
@@ -153,7 +173,7 @@ button {
 p {
 	color: black;
     font-family: Helvetica, Arial, sans-serif;
-		text-align: center;
+		text-align: left;
 }
 
 h1 {
@@ -257,9 +277,10 @@ p {
 	font-size: 15px;
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: normal;
-	text-align: center;
+	text-align: left;
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
+	text-indent: 25px;
 }
 
 
@@ -274,11 +295,10 @@ p a:hover {
 }
 
 p {
-	border-style: solid;
-	border-color: black;
 }
 
 
+<<<<<<< HEAD
 li {
 	margin: 0;
 	padding: 0;
@@ -292,6 +312,8 @@ text-decoration: none;
 background-color:white;
 }
 
+=======
+>>>>>>> 4f03bfb84657f5bd0dd41ed36b2d8b66c58a1921
 #navbar{
     width: 95%;
     margin: 0 auto;
@@ -309,6 +331,9 @@ background-color:white;
 	  border-bottom: 1px solid black;
 }
 
+#navbar a:link {
+	color: black;
+}
 
 #navbar a:link, #navbar a:visited {
 	  display: block;
