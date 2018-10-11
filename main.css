@@ -153,7 +153,7 @@ button {
 p {
 	color: black;
     font-family: Helvetica, Arial, sans-serif;
-		text-align: left;
+		text-align: center;
 }
 
 h1 {
@@ -257,10 +257,9 @@ p {
 	font-size: 15px;
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: normal;
-	text-align: left;
+	text-align: center;
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
-	text-indent: 25px;
 }
 
 
@@ -272,6 +271,25 @@ p a:visited {
 p a:hover {
 	text-decoration: underline;
 	color: black;
+}
+
+p {
+	border-style: solid;
+	border-color: black;
+}
+
+
+li {
+	margin: 0;
+	padding: 0;
+border-bottom: 3px white;
+border-top: 4px white;
+border-right: 4px white;
+border-left: 4px white;
+border-style: double;
+border-color: white;
+text-decoration: none;
+background-color:white;
 }
 
 #navbar{
@@ -291,6 +309,7 @@ p a:hover {
 	  border-bottom: 1px solid black;
 }
 
+
 #navbar a:link, #navbar a:visited {
 	  display: block;
     color: black;
@@ -304,7 +323,7 @@ p a:hover {
 
 #navbar a:hover, #navbar a:active {
     background-color: white;
-		color: white; 
+		color: black
 }
 
 #navbar {
