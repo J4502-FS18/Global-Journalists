@@ -364,10 +364,9 @@ background-color:white;
 	flow: left;
 }
 
-#titlearticle
-color: white
+#titlearticle {
+	color: white
 }
-
 
 /* section 4 that i took out
 .caption {
