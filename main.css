@@ -11,6 +11,15 @@ html {
 	display: center;
 }
 
+}
+
+#pc-content {
+	background: white;
+	min-height: 200px;
+	box-sizing: border-box;
+	display: center;
+}
+
 #pc-content {
 	background: white;
 	min-height: 200px;
@@ -50,6 +59,17 @@ h1 {
 	text-transform: capitalize;
 	font-size: 15px;
 }
+
+#article-content {
+
+	background: white;
+	min-height: 200px;
+	display: align
+
+
+
+}
+
 
 /* section 1 that i took out
 img {
@@ -275,8 +295,6 @@ p a:hover {
 }
 
 p {
-	border-style: solid;
-	border-color: black;
 }
 
 
