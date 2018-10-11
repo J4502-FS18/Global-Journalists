@@ -41,6 +41,19 @@ h1 {
 .podcast {
 
 }
+
+.cb-feature-1{
+	font-family: Helvetica, "Times New Roman", serif;
+	font-style: normal;
+	text-align: center;
+	font-stretch: semi-expanded;
+	color: black;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-size: 20px;
+}
+
+
 /* section 1 that i took out
 img {
 	width: 100%;
