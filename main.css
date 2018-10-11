@@ -11,6 +11,15 @@ html {
 	display: center;
 }
 
+}
+
+#pc-content {
+	background: white;
+	min-height: 200px;
+	box-sizing: border-box;
+	display: center;
+}
+
 #pc-content {
 	background: white;
 	min-height: 200px;
@@ -50,6 +59,17 @@ h1 {
 	text-transform: capitalize;
 	font-size: 15px;
 }
+
+#article-content {
+
+	background: white;
+	min-height: 200px;
+	display: align
+
+
+
+}
+
 
 /* section 1 that i took out
 img {
@@ -222,7 +242,7 @@ h1 a {
 body {
 	font-family: 'Open Sans', sans-serif, serif;
 	font-style: normal;
-	text-align: center;
+	text-align: left;
 	color: black;
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
