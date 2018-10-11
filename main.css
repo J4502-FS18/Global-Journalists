@@ -11,15 +11,6 @@ html {
 	display: left;
 }
 
-}
-
-#pc-content {
-	background: white;
-	min-height: 200px;
-	box-sizing: border-box;
-	display: center;
-}
-
 #pc-content {
 	background: white;
 	min-height: 200px;
@@ -60,15 +51,34 @@ h1 {
 	font-size: 15px;
 }
 
-#article-content {
-
-	background: white;
-	min-height: 200px;
-	display: align
-
-
+.podcast {
 
 }
+
+.cb-feature-1{
+	font-family: Helvetica, "Times New Roman", serif;
+	font-style: normal;
+	text-align: center;
+	font-stretch: semi-expanded;
+	color: black;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-size: 20px;
+}
+
+
+
+.videoWrapper{
+	font-family: Helvetica, "Times New Roman", serif;
+	font-style: normal;
+	text-align: left;
+	font-stretch: semi-expanded;
+	color: black;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-size: 20px;
+}
+
 
 
 /* section 1 that i took out
@@ -254,6 +264,10 @@ body {
 	text-decoration: none;
 }
 
+ul{
+	list-style: none;
+}
+
 #hp-turkey-body {
 	color: black;
 }
@@ -298,6 +312,19 @@ p a:hover {
 
 }
 
+
+li {
+	margin: 0;
+	padding: 0;
+border-bottom: 3px white;
+border-top: 4px white;
+border-right: 4px white;
+border-left: 4px white;
+border-style: double;
+border-color: white;
+text-decoration: none;
+background-color:white;
+}
 
 #navbar{
     width: 95%;
