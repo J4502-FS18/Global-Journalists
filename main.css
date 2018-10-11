@@ -348,7 +348,7 @@ background-color:white;
 
 #navbar a:hover, #navbar a:active {
     background-color: white;
-		color: black
+		color: white; 
 }
 
 #navbar {
