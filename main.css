@@ -233,6 +233,10 @@ body {
 	text-decoration: none;
 }
 
+ul{
+	list-style: none;
+}
+
 #hp-turkey-body {
 	color: black;
 }
