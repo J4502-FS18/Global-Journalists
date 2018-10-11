@@ -20,7 +20,7 @@ html {
 
 body a:link {
 	text-decoration: underline;
-	color: white;
+	color: black;
 }
 
 .wrap {
@@ -278,19 +278,6 @@ p {
 	border-color: black;
 }
 
-
-li {
-	margin: 0;
-	padding: 0;
-border-bottom: 3px white;
-border-top: 4px white;
-border-right: 4px white;
-border-left: 4px white;
-border-style: double;
-border-color: white;
-text-decoration: none;
-background-color:white;
-} 
 
 #navbar{
     width: 95%;
