@@ -210,7 +210,8 @@ h5 {
 h1 a {
 	color: black;
 	text-decoration: none;
-}
+
+
 
 body {
 	font-family: 'Open Sans', sans-serif, serif;
@@ -246,9 +247,9 @@ p {
 	letter-spacing: 1px;
 }
 
-p a:link {
+p a:visited {
+	text-decoration: underline;
 	color: black;
-	text-decoration: none;
 }
 
 p a:hover {
