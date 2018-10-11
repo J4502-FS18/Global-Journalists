@@ -83,6 +83,16 @@ h1 {
 	font-size: 20px;
 }
 
+.iframe{
+	font-family: Helvetica, "Times New Roman", serif;
+	font-style: normal;
+	text-align: left;
+	font-stretch: semi-expanded;
+	color: white;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-size: 20px;
+}
 
 
 /* section 1 that i took out
