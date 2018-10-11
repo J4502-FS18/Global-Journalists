@@ -431,7 +431,7 @@ background-color:white;
 }
 
 /* Dropdown button */
-.dropdown1 .home { 
+.dropdown1 .home {
 font-size: 16px;
 border: none;
 outline: none;
@@ -476,6 +476,10 @@ margin: 0; /* Important for vertical align on mobile phones */
 }
 
 /* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown1:hover .home {
+  background-color: green;
+}
+
 .navbar a:hover, .dropdown:hover .aboutus {
   background-color: blue;
 }
