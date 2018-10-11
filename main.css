@@ -297,6 +297,9 @@ p {
 	  border-bottom: 1px solid black;
 }
 
+#navbar a:link {
+	color: black;
+}
 
 #navbar a:link, #navbar a:visited {
 	  display: block;
