@@ -82,17 +82,16 @@ h1 {
 	font-size: 20px;
 }
 
-.iframe{
+.p{
 	font-family: Helvetica, "Times New Roman", serif;
 	font-style: normal;
-	text-align: left;
+	text-align: center;
 	font-stretch: semi-expanded;
 	color: white;
 	letter-spacing: 1px;
 	text-transform: capitalize;
 	font-size: 20px;
 }
-
 
 /* section 1 that i took out
 img {
