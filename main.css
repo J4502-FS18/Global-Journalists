@@ -51,8 +51,10 @@ h1 {
 	font-size: 15px;
 }
 
-.podcast {
-
+#article-content {
+	background: white;
+	min-height: 200px;
+	display: left;
 }
 
 .cb-feature-1{
