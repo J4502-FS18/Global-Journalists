@@ -187,6 +187,7 @@ h3 {
 	letter-spacing: 1px;
 	text-transform: capitalize;
 	font-size: 15px;
+	text-decoration: none;
 }
 
 h4 {
@@ -217,6 +218,7 @@ h1 a {
 }
 
 
+
 body {
 	font-family: 'Open Sans', sans-serif, serif;
 	font-style: normal;
@@ -226,7 +228,13 @@ body {
 	letter-spacing: 1px;
 	font-size: 13px;
 	line-height: 1.5;
+	text-decoration: none;
 }
+
+#hp-turkey-body{
+	color: black;
+}
+
 
 /*
 li {
@@ -250,6 +258,7 @@ p {
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
 }
+
 
 p a:visited {
 	text-decoration: underline;
@@ -312,9 +321,9 @@ background-color:white;
 
 
 #navbar a:link, #navbar a:visited {
-	  display:block;
+	  display: block;
     color: black;
-    background-color: black;
+    background-color: white;
     font-weight: bold;
     text-align:center;
     text-decoration: none;
@@ -454,6 +463,7 @@ background-color:white;
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
+	color: black;
 }
 
 /* Links inside the dropdown */
