@@ -18,6 +18,10 @@ html {
 	display: center;
 }
 
+body a:link {
+	text-decoration: underline;
+	color: white;
+}
 
 .wrap {
 	width: 310px;
