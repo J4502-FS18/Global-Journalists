@@ -296,7 +296,9 @@ p a:hover {
 
 p {
 }
-
+ ul{
+	 list-style: none;
+ }
 
 #navbar{
     width: 95%;
