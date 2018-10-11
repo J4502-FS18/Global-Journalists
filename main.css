@@ -8,7 +8,7 @@ html {
 	background: white;
 	min-height: 200px;
 	box-sizing: border-box;
-	display: left;
+	display: center;
 }
 
 }
@@ -244,7 +244,7 @@ h3 a {
 body {
 	font-family: 'Open Sans', sans-serif, serif;
 	font-style: normal;
-	text-align: left;
+	text-align: center;
 	color: black;
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
