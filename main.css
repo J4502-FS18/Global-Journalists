@@ -20,7 +20,7 @@ html {
 
 body a:link {
 	text-decoration: underline;
-	color: white;
+	color: black;
 	margin-left: 20;
 }
 
@@ -56,6 +56,7 @@ h1 {
 	background: white;
 	min-height: 200px;
 	display: left;
+	padding-left: 25%;
 }
 
 .cb-feature-1{
@@ -197,7 +198,8 @@ p {
 	color: black;
     font-family: Helvetica, Arial, sans-serif;
 		text-align: left;
-
+		padding-left: 13px;
+		padding-right: 13px;
 }
 
 h1 {
@@ -273,6 +275,8 @@ body {
 	font-size: 13px;
 	line-height: 1.5;
 	text-decoration: none;
+	padding-left: 13px;
+	padding-right: 13px;
 }
 
 #hp-turkey-body {
@@ -302,7 +306,8 @@ p {
 	text-align: left;
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
-
+	padding-left: 13px;
+	padding-right: 13px;
 }
 
 ul{
@@ -337,22 +342,15 @@ background-color:white;
     width: 95%;
     margin: 0 auto;
 		text-align: center;
-}
-
-#navbar {
-    padding: 0;
+		padding: 0;
 	  list-style-type: none;
-}
-
-#navbar {
-    margin: 0;
-    padding: 0;
 	  border-bottom: 1px solid black;
-}
+		display: flex;
 
+}
 
 #navbar a:link, #navbar a:visited {
-	  display: block;
+	  display: flex;
     color: black;
     background-color: white;
     font-weight: bold;
@@ -397,6 +395,7 @@ background-color:white;
   overflow: hidden;
   background-color: #333;
   font-family: Arial;
+	display: flex;
 }
 
 /* Links inside the navbar */
@@ -407,28 +406,37 @@ background-color:white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+	display: flex;
 }
 
 /* The dropdown container */
 
 .dropdown1{
 	float: left;
-	overflow: hidden;
+	display: flex;
+	margin-left: 13px;
+	margin-right: 13px;
 }
 
 .dropdown {
-  float: left;
-  overflow: hidden;
+  float: right;
+	display: flex;
+	margin-left: 13px;
+	margin-right: 13px;
 }
 
 .dropdown2 {
-	float: left;
-	overflow: hidden;
+	float: right;
+	display: flex;
+	margin-left: 13px;
+	margin-right: 13px;
 }
 
 .dropdown3 {
-	float: left;
-	overflow: hidden;
+	float: right;
+	display: flex;
+	margin-left: 13px;
+	margin-right: 13px;
 }
 
 /* Dropdown button */
