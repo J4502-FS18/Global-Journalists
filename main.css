@@ -21,7 +21,8 @@ html {
 body a:link {
 	text-decoration: underline;
 	color: black;
-	margin-left: 20;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 .wrap {
@@ -84,7 +85,7 @@ h1 {
 	font-size: 20px;
 }
 
-.p{
+.p {
 	font-family: Helvetica, "Times New Roman", serif;
 	font-style: normal;
 	text-align: center;
@@ -347,7 +348,6 @@ background-color:white;
 	  border-bottom: 1px solid black;
 		display: block;
 		flow: left;
-		}
 }
 
 #navbar a:link, #navbar a:visited {
@@ -392,12 +392,14 @@ background-color:white;
   background-color: #333;
   font-family: Arial;
 	display: block;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 /* Links inside the navbar */
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 11px;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -529,7 +531,7 @@ margin: 0; /* Important for vertical align on mobile phones */
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 12px 16px;
+  padding: 10px 10px;
   text-decoration: underline;
   display: flex;
   text-align: left;
@@ -538,7 +540,7 @@ margin: 0; /* Important for vertical align on mobile phones */
 .dropdown-content2 a {
 	float: none;
   color: black;
-  padding: 12px 16px;
+  padding: 10px 10px;
   text-decoration: underline;
   display: flex;
   text-align: left;
@@ -547,7 +549,7 @@ margin: 0; /* Important for vertical align on mobile phones */
 .dropdown-content3 a {
 	float: none;
   color: black;
-  padding: 12px 16px;
+  padding: 10px 10px;
   text-decoration: underline;
   display: flex;
   text-align: left;
