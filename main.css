@@ -8,14 +8,14 @@ html {
 	background: white;
 	min-height: 200px;
 	box-sizing: border-box;
-	display: left;
+	display: flex;
 }
 
 #pc-content {
 	background: white;
 	min-height: 200px;
 	box-sizing: border-box;
-	display: center;
+	display: flex;
 }
 
 body a:link {
@@ -345,13 +345,13 @@ background-color:white;
 		padding: 0;
 	  list-style-type: none;
 	  border-bottom: 1px solid black;
-		display: flex;
+		display: block;
 		flow: left;
 		}
 }
 
 #navbar a:link, #navbar a:visited {
-	  display: flex;
+	  display: block;
     color: black;
     background-color: white;
     font-weight: bold;
@@ -389,10 +389,9 @@ background-color:white;
 
 /* Navbar container */
 .navbar {
-  overflow: hidden;
   background-color: #333;
   font-family: Arial;
-	display: flex;
+	display: block;
 }
 
 /* Links inside the navbar */
@@ -410,28 +409,28 @@ background-color:white;
 
 .dropdown1{
 	float: left;
-	display: flex;
+	display: block;
 	margin-left: 13px;
 	margin-right: 13px;
 }
 
 .dropdown {
   float: right;
-	display: flex;
+	display: block;
 	margin-left: 13px;
 	margin-right: 13px;
 }
 
 .dropdown2 {
 	float: right;
-	display: flex;
+	display: block;
 	margin-left: 13px;
 	margin-right: 13px;
 }
 
 .dropdown3 {
 	float: right;
-	display: flex;
+	display: block;
 	margin-left: 13px;
 	margin-right: 13px;
 }
