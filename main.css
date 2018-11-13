@@ -1,3 +1,5 @@
+/* html, hp content and pc content change all pages */
+
 html {
 	background-color: black;
 	font-size: 100%;
@@ -8,12 +10,15 @@ html {
 	background: white;
 	min-height: 200px;
 	box-sizing: border-box;
+<<<<<<< HEAD
 	display: grid;
 	grid-template-columns: 3fr 1fr;
 	grid-template-areas:
 	'spotlightstorymeta spotlightstorymeta spotlightstorymeta videoWrapper'
 	'spotlightstorymeta spotlightstorymeta spotlightstorymeta videoWrapper'
 	'hp-africa hp-africa videoWrapper videoWrapper'
+=======
+>>>>>>> 00bbc788b1fb0280da31eec5c84f48e3cc84263d
 }
 
 #pc-content {
@@ -31,8 +36,8 @@ body a:link {
 }
 
 .wrap {
-	width: 310px;
-	margin: 0 auto;
+	/* width: 310px; */
+	/* margin: 0 auto; */
 }
 
 .clearfix {
@@ -62,7 +67,9 @@ h1 {
 	background: white;
 	min-height: 200px;
 	display: left;
-	padding-left: 25%;
+	/* padding-left: 25%; */
+	/* padding-right: 25%; */
+
 }
 
 .cb-feature-1{
@@ -399,6 +406,7 @@ background-color:white;
 	display: block;
 	margin-left: 20px;
 	margin-right: 20px;
+	margin-bottom:50px;
 }
 
 /* Links inside the navbar */
