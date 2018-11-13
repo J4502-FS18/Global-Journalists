@@ -1,0 +1,590 @@
+/* html, hp content and pc content change all pages */
+
+html {
+	background-color: black;
+	font-size: 100%;
+	font-family: sans-serif;
+}
+
+#hp-content {
+	background: white;
+	min-height: 200px;
+	box-sizing: border-box;
+<<<<<<< HEAD
+	display: inline-grid;
+=======
+>>>>>>> 00bbc788b1fb0280da31eec5c84f48e3cc84263d
+}
+
+#pc-content {
+	background: white;
+	min-height: 200px;
+	box-sizing: border-box;
+	display: flex;
+}
+
+body a:link {
+	text-decoration: underline;
+	color: black;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.wrap {
+	/* width: 310px; */
+	/* margin: 0 auto; */
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+div {
+	display: block;
+}
+
+.clearfix:before .clearfix:after {
+	display: table;
+}
+
+h1 {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: normal;
+	text-align: center;
+	font-stretch: semi-expanded;
+	color: black;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-size: 15px;
+}
+
+#article-content {
+	background: white;
+	min-height: 200px;
+	display: left;
+	/* padding-left: 25%; */
+	/* padding-right: 25%; */
+
+}
+
+.cb-feature-1{
+	display: table;
+	font-family: Helvetica, "Times New Roman", serif;
+	font-style: normal;
+	text-align: center;
+	font-stretch: semi-expanded;
+	color: white;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-size: 20px;
+}
+
+
+
+.videoWrapper{
+	font-family: Helvetica, "Times New Roman", serif;
+	font-style: normal;
+	text-align: center;
+	font-stretch: semi-expanded;
+	color: white;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-size: 20px;
+}
+
+.p {
+	font-family: Helvetica, "Times New Roman", serif;
+	font-style: normal;
+	text-align: center;
+	font-stretch: semi-expanded;
+	color: white;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-size: 20px;
+}
+
+/* section 1 that i took out
+img {
+	width: 100%;
+	height: 100%;
+}
+
+img {
+  border: none;
+  width: 100%;
+}
+
+img .Ethiopia {
+	border: solid;
+	border-top: solid;
+	border-bottom: solid;
+	border-color: white;
+}
+
+img .Turkey {
+	border: solid;
+	border-color: white;
+} */
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* section 2 that i took out
+.right {
+	display: block;
+	margin-left: auto;
+	margin-right: 0;
+	width: 50%;
+}
+
+#spotlightstory {
+    max-width: 100px;
+    height: 190px;
+	border-bottom: 3px solid;
+		border-color: white;
+}
+
+#spotlightstory a:hover a:active {
+
+}
+
+#africa {
+	max-width: 100px;
+	height: 190px;
+	border-bottom: 3px solid;
+	border-color: white;
+}
+
+#turkey {
+	max-width: 100px;
+	height: 190px;
+	border-bottom: 3px solid;
+	border-color: white;
+}
+
+#ourpartners {
+	max-width: 150px;
+	height: 100px;
+}
+
+.photo_aside {
+  width: 50%;
+  float: center;
+	margin-left: 10px;
+	margin-right: 10px;
+	align: right;
+}
+
+button {
+	border-top: blue
+	text: large;
+}
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+	margin-bottom: 30px;
+	border-bottom: 3px solid;
+	border-color: white;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: right;
+} */
+
+p {
+	color: black;
+    font-family: Helvetica, Arial, sans-serif;
+		text-align: left;
+		padding-left: 13px;
+		padding-right: 13px;
+}
+
+h1 {
+    font-family: Georgia, "Times New Roman", serif;
+		font-style: normal;
+		text-align: center;
+		font-stretch: semi-expanded;
+		color: black;
+		letter-spacing: 1px;
+		text-transform: capitalize;
+		font-size: 15px;
+}
+
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: normal;
+	text-align: center;
+	color: black;
+	font-stretch: semi-expanded;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-size: 15px;
+}
+
+h3 {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: normal;
+	text-align: center;
+	color: black;
+	font-stretch: semi-expanded;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+h4 {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: normal;
+	text-align: center;
+	color: black;
+	font-stretch: semi-expanded;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-size: 15px;
+}
+
+h5 {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: normal;
+	text-align: center;
+	color: black;
+	font-stretch: semi-expanded;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	font-size: 15px;
+}
+
+h1 a {
+	color: black;
+	text-decoration: none;
+}
+
+
+
+body {
+	font-family: 'Open Sans', sans-serif, serif;
+	font-style: normal;
+	text-align: center;
+	color: black;
+	font-stretch: semi-expanded;
+	letter-spacing: 1px;
+	font-size: 13px;
+	line-height: 1.5;
+	text-decoration: none;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+
+#hp-turkey-body {
+	color: black;
+}
+
+
+
+/*
+li {
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: normal;
+	text-align: center;
+	color: white;
+	font-stretch: semi-expanded;
+	letter-spacing: 1px;
+	font-size: 15px;
+	text-decoration: underline;
+}
+*/
+p {
+	width: 100%;
+	color: black;
+	font-size: 15px;
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: normal;
+	text-align: left;
+	font-stretch: semi-expanded;
+	letter-spacing: 1px;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+
+ul{
+	list-style: none;
+}
+
+p a:visited {
+	text-decoration: underline;
+	color: black;
+}
+
+p a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+
+/* li {
+	margin: 0;
+	padding: 0;
+border-bottom: 3px white;
+border-top: 4px white;
+border-right: 4px white;
+border-left: 4px white;
+border-style: double;
+border-color: white;
+text-decoration: none;
+background-color:white;
+} */
+
+#navbar{
+    width: 95%;
+    margin: 0 auto;
+		text-align: center;
+		padding: 0;
+	  list-style-type: none;
+	  border-bottom: 1px solid black;
+		display: block;
+		flow: left;
+}
+
+#navbar a:link, #navbar a:visited {
+	  display: block;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    text-align:center;
+    text-decoration: none;
+    padding: 4px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#navbar a:hover, #navbar a:active {
+    background-color: white;
+		color: black
+}
+
+#titlearticle {
+	color: white
+}
+
+/* section 4 that i took out
+.caption {
+    color: black;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-size: 0.8em;
+    margin-top: 0;
+    text-align: right;
+}
+/*
+#footer {
+    color: black;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 0.8em;
+    border-top: 1px solid black;
+} */
+
+/* Navbar container */
+.navbar {
+  background-color: #333;
+  font-family: Arial;
+	display: block;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom:50px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 11px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	display: flex;
+}
+
+/* The dropdown container */
+
+.dropdown1{
+	float: left;
+	display: block;
+	margin-left: 13px;
+	margin-right: 13px;
+}
+
+.dropdown {
+  float: right;
+	display: block;
+	margin-left: 13px;
+	margin-right: 13px;
+}
+
+.dropdown2 {
+	float: right;
+	display: block;
+	margin-left: 13px;
+	margin-right: 13px;
+}
+
+.dropdown3 {
+	float: right;
+	display: block;
+	margin-left: 13px;
+	margin-right: 13px;
+}
+
+/* Dropdown button */
+.dropdown1 .home {
+font-size: 16px;
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit; /* Important for vertical align on mobile phones */
+margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.dropdown .aboutus {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.dropdown2 .countryregion {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit; /* Important for vertical align on mobile phones */
+	margin: 0;
+}
+
+.dropdown3 .freepress {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit; /* Important for vertical align on mobile phones */
+	margin: 0;
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown1:hover .home {
+  background-color: #ddd;
+}
+
+.navbar a:hover, .dropdown:hover .aboutus {
+  background-color: blue;
+}
+
+.navbar a:hover, .dropdown2:hover .countryregion {
+	background-color: hsl(39, 100%, 50%);
+}
+
+.navbar a:hover, .dropdown3:hover .freepress {
+	background-color: green;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content2 {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content3 {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 10px 10px;
+  text-decoration: underline;
+  display: flex;
+  text-align: left;
+}
+
+.dropdown-content2 a {
+	float: none;
+  color: black;
+  padding: 10px 10px;
+  text-decoration: underline;
+  display: flex;
+  text-align: left;
+}
+
+.dropdown-content3 a {
+	float: none;
+  color: black;
+  padding: 10px 10px;
+  text-decoration: underline;
+  display: flex;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown-content2 a:hover {
+	background-color: #ddd;
+}
+
+.dropdown-content3 a:hover {
+	background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown2:hover .dropdown-content2 {
+	display: block;
+}
+
+.dropdown3:hover .dropdown-content3 {
+	display: block;
+}
