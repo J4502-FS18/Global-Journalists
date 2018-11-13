@@ -11,7 +11,7 @@ html {
 	min-height: 200px;
 	box-sizing: border-box;
 <<<<<<< HEAD
-	display: grid;
+	display: inline-grid;
 =======
 >>>>>>> 00bbc788b1fb0280da31eec5c84f48e3cc84263d
 }
