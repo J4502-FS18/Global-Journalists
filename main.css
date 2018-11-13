@@ -12,11 +12,6 @@ html {
 	box-sizing: border-box;
 <<<<<<< HEAD
 	display: grid;
-	grid-template-columns: 3fr 1fr;
-	grid-template-areas:
-	'spotlightstorymeta spotlightstorymeta spotlightstorymeta videoWrapper'
-	'spotlightstorymeta spotlightstorymeta spotlightstorymeta videoWrapper'
-	'hp-africa hp-africa videoWrapper videoWrapper'
 =======
 >>>>>>> 00bbc788b1fb0280da31eec5c84f48e3cc84263d
 }
