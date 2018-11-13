@@ -27,8 +27,8 @@ body a:link {
 }
 
 .wrap {
-	width: 310px;
-	margin: 0 auto;
+	/* width: 310px; */
+	/* margin: 0 auto; */
 }
 
 .clearfix {
@@ -58,8 +58,8 @@ h1 {
 	background: white;
 	min-height: 200px;
 	display: left;
-	padding-left: 25%;
-	padding-right: 25%;
+	/* padding-left: 25%; */
+	/* padding-right: 25%; */
 
 }
 
