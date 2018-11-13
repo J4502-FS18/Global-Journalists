@@ -8,7 +8,12 @@ html {
 	background: white;
 	min-height: 200px;
 	box-sizing: border-box;
-	display: flex;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-template-areas:
+	'spotlightstorymeta spotlightstorymeta spotlightstorymeta videoWrapper'
+	'spotlightstorymeta spotlightstorymeta spotlightstorymeta videoWrapper'
+	'hp-africa hp-africa videoWrapper videoWrapper'
 }
 
 #pc-content {
