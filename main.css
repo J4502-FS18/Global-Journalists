@@ -38,8 +38,20 @@ header {
     margin: 0;
 }
 
-.navbar a:hover, .dropdownFreePress:hover .dropbtnFreePress, .dropdownCountryRegion:hover .dropbtnCountryRegion, .dropdownAboutUs:hover .dropbtnAboutUs {
+.navbar a:hover, .dropdownFreePress:hover .dropbtnFreePress {
     background-color: red;
+}
+
+.navbar a:hover, .dropdownCountryRegion:hover .dropbtnCountryRegion {
+	background-color: blue;
+}
+
+.navbar a:hover, .dropdownAboutUs:hover .dropbtnAboutUs {
+	background-color: green;
+}
+
+.navbar a:hover, .dropdownHome:hover .droptnHome {
+	background-color: #ddd; 
 }
 
 .dropdown-content {
