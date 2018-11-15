@@ -47,7 +47,11 @@ header {
 }
 
 .navbar a:hover, .dropdownAboutUs:hover .dropbtnAboutUs {
-	background-color: green; 
+	background-color: green;
+}
+
+.navbar a:hover, .dropdownHome:hover .droptnHome {
+	background-color: #ddd; 
 }
 
 .dropdown-content {
