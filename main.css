@@ -127,9 +127,14 @@ iframe {
     grid-row: 2;
 }
 
-.hp-multimedia {
+.hp-video {
     grid-column: 3;
     grid-row: 1/3;
+}
+
+.hp-podcast{
+  grid-column: 3;
+  grid-row: 3/5;
 }
 /* grid tail */
 
