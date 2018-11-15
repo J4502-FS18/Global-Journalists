@@ -151,8 +151,7 @@ button {
 	width: 100%;
 	height: 100%;
 	border: right;
-} */
-
+}
 p {
 	color: black;
     font-family: Helvetica, Arial, sans-serif;
@@ -300,6 +299,55 @@ p a:hover {
 	text-decoration: underline;
 	color: black;
 }
+@media screen and (min-width: 700px)
+
+}
+
+
+@media screen and (min-width: 450px) {
+
+    nav ul {
+        flex-flow: row;
+        justify-content: space-between;
+    }
+
+}
+
+@media screen and (min-width: 600px) {
+
+    #container {
+        width: 80%;
+    }
+
+  
+}
+
+@media screen and (min-width: 800px) {
+    .item1 {
+      margin-right: auto;
+    }
+
+    nav ul li {
+      margin: 5px;
+    }
+
+
+
+}
+
+@media screen and (min-width:1000px) {
+  article {
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+        "a b b"
+        "c c e"
+        ". d d";
+  }
+
+
+
 
 
 /* li {
