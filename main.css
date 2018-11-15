@@ -173,10 +173,8 @@ p {
 		padding-left: 13px;
 		padding-top: 13px;
 	}
- dateline {
-	 color: gray;
-	 font-family: Helvetica, Arial, sans-serif;
-	 text-align: right;
+
+
 
  }
 
@@ -261,6 +259,23 @@ body {
 	text-decoration: none;
 	margin-left: 16px;
 	margin-right: 16px;
+}
+  dateline {
+    color: gray;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: left;
+    margin-right: 100px;
+
+}
+h14 {
+  font-family:'Fjalla One', sans-serif, serif;
+  		font-style: normal;
+  		text-align: center;
+  		font-stretch: semi-expanded;
+  		color: black;
+  		letter-spacing: 1px;
+  		text-transform: capitalize;
+  		font-size: 30px;
 
 
 }
@@ -273,12 +288,6 @@ padding-right: 20px;
 padding-left: 20px;
 }
 
-.countryregion {
-background-color: black;
-color: white;
-font-size: 15px;
-
-}
 
 #hp-turkey-body {
 	color: black;
@@ -477,22 +486,6 @@ iframe {
 }
 /* grid tail */
 
-/*
-.video-container {
-	position:relative;
-	padding-bottom:56.25%;
-	padding-top:30px;
-	height:0;
-	overflow:hidden;
-}
-
-.video-container iframe, .video-container object, .video-container embed {
-	position:absolute;
-	top:0;
-	left:0;
-	width:50%;
-	height:50%;
-}
 /* footer head */
 .footer {
     margin-bottom: 20px;
