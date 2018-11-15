@@ -319,7 +319,7 @@ p a:hover {
         width: 80%;
     }
 
-  
+
 }
 
 @media screen and (min-width: 800px) {
@@ -414,7 +414,7 @@ iframe {
     display: inline-grid;
     grid-column-gap: 5px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
 }
 
 .hp-spotlightstory {
