@@ -21,6 +21,8 @@ header {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+
+
 }
 
 .dropdownFreePress, .dropdownCountryRegion, .dropdownAboutUs {
@@ -243,6 +245,7 @@ title {
 	text-transform: capitalize;
 	font-size: 100px;
 
+
 }
 
 body {
@@ -257,7 +260,17 @@ body {
 	margin-left: 16px;
 	margin-right: 16px;
 
+
 }
+
+.article1 {
+
+margin-left: 40px;
+margin-right: 40px;
+padding-right: 20px;
+padding-left: 20px;
+}
+
 
 #hp-turkey-body {
 	color: black;
@@ -285,6 +298,7 @@ p {
 	text-align: left;
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
+
 
 }
 
