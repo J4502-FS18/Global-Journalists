@@ -367,6 +367,11 @@ iframe {
     grid-column-gap: 5px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-flow: column;
+}
+
+.grid-container-fill{
+  grid-template-columns: auto-fill;
 }
 
 .hp-spotlightstory {
@@ -399,6 +404,6 @@ iframe {
 .footer {
     margin-bottom: 20px;
     grid-column: 3;
-    grid-row: auto;
+    grid-row: 3;
 }
 /* footer tail */
