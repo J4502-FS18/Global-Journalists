@@ -11,8 +11,10 @@ header {
 .navbar {
     overflow: hidden;
     background-color: black;
-    margin-left: 100px;
-    margin-right: 100px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		font-size: 13px;
 }
 
 .navbar a {
@@ -26,6 +28,7 @@ header {
 .dropdownFreePress, .dropdownCountryRegion, .dropdownAboutUs {
     float: right;
     overflow: hidden;
+		font-size: 9.5px;
 }
 
 .dropdownFreePress .dropbtnFreePress, .dropdownCountryRegion .dropbtnCountryRegion, .dropdownAboutUs .dropbtnAboutUs {
@@ -36,7 +39,10 @@ header {
     padding: 14px 16px;
     background-color: inherit;
     margin: 0;
+		font-size: 14px;
 }
+
+
 
 .navbar a:hover, .dropdownFreePress:hover .dropbtnFreePress {
     background-color: red;
@@ -167,10 +173,8 @@ p {
 		padding-left: 13px;
 		padding-top: 13px;
 	}
- dateline {
-	 color: gray;
-	 font-family: Helvetica, Arial, sans-serif;
-	 text-align: right;
+
+
 
  }
 
@@ -241,6 +245,7 @@ title {
 	text-transform: capitalize;
 	font-size: 100px;
 
+
 }
 
 body {
@@ -254,8 +259,44 @@ body {
 	text-decoration: none;
 	margin-left: 16px;
 	margin-right: 16px;
+}
+  dateline {
+    color: gray;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: left;
+    margin-right: 100px;
 
 }
+h14 {
+  font-family:'Fjalla One', sans-serif, serif;
+  		font-style: normal;
+  		text-align: center;
+  		font-stretch: semi-expanded;
+  		color: black;
+  		letter-spacing: 1px;
+  		text-transform: capitalize;
+  		font-size: 30px;
+  }
+      h14 {
+        font-family:'Fjalla One', sans-serif, serif;
+        		font-style: normal;
+        		text-align: center;
+        		font-stretch: semi-expanded;
+        		color: black;
+        		letter-spacing: 1px;
+        		text-transform: capitalize;
+        		font-size: 35px;
+
+}
+
+.article1 {
+
+margin-left: 40px;
+margin-right: 40px;
+padding-right: 20px;
+padding-left: 20px;
+}
+
 
 #hp-turkey-body {
 	color: black;
@@ -283,6 +324,24 @@ p {
 	text-align: left;
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
+}
+p2 {
+  font-family:'Fjalla One', sans-serif, serif;
+      font-style: light;
+      text-align: center;
+      font-stretch: semi-expanded;
+      color: black;
+      letter-spacing: 1px;
+      font-size: 20px;
+}
+  h10 {
+        font-family:'Fjalla One', sans-serif, serif;
+            font-style: light;
+            text-align: center;
+            font-stretch: semi-expanded;
+            color: black;
+            letter-spacing: 1px;
+            font-size: 20px;
 
 }
 
@@ -306,7 +365,7 @@ p a:hover {
 
 @media screen and (min-width: 450px) {
 
-    nav ul {
+    .navbar {
         flex-flow: row;
         justify-content: space-between;
     }
@@ -327,7 +386,7 @@ p a:hover {
       margin-right: auto;
     }
 
-    nav ul li {
+    .navbar {
       margin: 5px;
     }
 
@@ -345,7 +404,11 @@ p a:hover {
         "c c e"
         ". d d";
   }
-
+  .menu-trigger {
+  	order: 1;
+  	font-size: 1.75em;
+  	width: 1em;
+  }
 
 
 
@@ -363,7 +426,7 @@ text-decoration: none;
 background-color:white;
 } */
 
-#navbar{
+/* #navbar{
     width: 95%;
     margin: 0 auto;
 		text-align: center;
@@ -372,7 +435,7 @@ background-color:white;
 	  border-bottom: 1px solid black;
 		display: block;
 		flow: left;
-}
+} */
 
 #navbar a:link, #navbar a:visited {
 	  display: block;
@@ -383,6 +446,14 @@ background-color:white;
     text-decoration: none;
     padding: 4px;
     font-family: Helvetica, Arial, sans-serif;
+}
+
+@media screen and (min-width: 200px) {
+
+    .navbar {
+        flex-flow: row;
+        justify-content: right;
+    }
 }
 
 .hp-spotlightstory img {
@@ -447,6 +518,7 @@ iframe {
 }
 /* grid tail */
 
+<<<<<<< HEAD
 /* Article Grid */
 .article-grid{
   display: inline-grid;
@@ -464,6 +536,8 @@ iframe {
 .gridpodcast{
   grid-column-start: 1;
 }
+=======
+>>>>>>> 0009c29cd22fcab70303016bb1450090679d436a
 /* footer head */
 .footer {
     margin-bottom: 20px;
