@@ -51,7 +51,7 @@ header {
 }
 
 .navbar a:hover, .dropdownHome:hover .droptnHome {
-	background-color: #ddd; 
+	background-color: #ddd;
 }
 
 .dropdown-content {
@@ -251,7 +251,7 @@ body {
 	color: black;
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
-	font-size: 13px;
+	/* font-size: 13px; */
 	line-height: 1.5;
 	text-decoration: none;
 
