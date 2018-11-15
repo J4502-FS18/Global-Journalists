@@ -13,6 +13,9 @@ header {
     background-color: black;
     margin-left: 50px;
     margin-right: 50px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
 }
 
 .navbar a {
@@ -21,8 +24,6 @@ header {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-
-
 }
 
 .dropdownFreePress, .dropdownCountryRegion, .dropdownAboutUs {
@@ -298,8 +299,6 @@ p {
 	text-align: left;
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
-
-
 }
 
 ul{
@@ -383,7 +382,7 @@ text-decoration: none;
 background-color:white;
 } */
 
-#navbar{
+/* #navbar{
     width: 95%;
     margin: 0 auto;
 		text-align: center;
@@ -392,7 +391,7 @@ background-color:white;
 	  border-bottom: 1px solid black;
 		display: block;
 		flow: left;
-}
+} */
 
 #navbar a:link, #navbar a:visited {
 	  display: block;
