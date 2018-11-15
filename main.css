@@ -50,8 +50,7 @@ div {
 	background: white;
 	min-height: 200px;
 	display: left;
-	padding-right: 25%;
-	padding-left: 25%;
+
 	/* padding-left: 25%; */
 	/* padding-right: 25%; */
 
@@ -293,8 +292,7 @@ body {
 	font-size: 13px;
 	line-height: 1.5;
 	text-decoration: none;
-	padding-left: 200px;
-	padding-right: 200px;
+
 }
 
 #hp-turkey-body {
@@ -323,8 +321,7 @@ p {
 	text-align: left;
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
-	padding-left: 13px;
-	padding-right: 13px;
+	
 }
 
 ul{
