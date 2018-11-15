@@ -11,8 +11,8 @@ header {
 .navbar {
     overflow: hidden;
     background-color: black;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .navbar a {
@@ -37,6 +37,8 @@ header {
     background-color: inherit;
     margin: 0;
 }
+
+
 
 .navbar a:hover, .dropdownFreePress:hover .dropbtnFreePress {
     background-color: red;
@@ -346,7 +348,7 @@ p a:hover {
         ". d d";
   }
   .menu-trigger {
-  	align-items: left
+  	order: 1;
   	font-size: 1.75em;
   	width: 1em;
   }
@@ -387,6 +389,14 @@ background-color:white;
     text-decoration: none;
     padding: 4px;
     font-family: Helvetica, Arial, sans-serif;
+}
+
+@media screen and (min-width: 200px) {
+
+    .navbar {
+        flex-flow: row;
+        justify-content: right;
+    }
 }
 
 .hp-spotlightstory img {
@@ -447,16 +457,6 @@ iframe {
 }
 /* grid tail */
 
-/* Article Grid */
-.article-grid{
-  display: inline-grid;
-  grid-column-gap: 5px;
-  grid-template-columns: 3fr 1fr;
-}
-
-.gridpodcast{
-  grid-column-start: 1;
-}
 /* footer head */
 .footer {
     margin-bottom: 20px;
