@@ -316,6 +316,25 @@ p {
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
 }
+p2 {
+  font-family:'Fjalla One', sans-serif, serif;
+      font-style: light;
+      text-align: center;
+      font-stretch: semi-expanded;
+      color: black;
+      letter-spacing: 1px;
+      font-size: 20px;
+}
+  h10 {
+        font-family:'Fjalla One', sans-serif, serif;
+            font-style: light;
+            text-align: center;
+            font-stretch: semi-expanded;
+            color: black;
+            letter-spacing: 1px;
+            font-size: 20px;
+
+}
 
 ul{
 	list-style: none;
