@@ -175,9 +175,6 @@ p {
 	}
 
 
-
- }
-
 	}
 h1 {
     font-family: Georgia, "Times New Roman", serif;
@@ -411,6 +408,16 @@ p a:hover {
   }
 
 
+  .psomething {
+    font-family:'Fjalla One', sans-serif, serif;
+        font-style: normal;
+        text-align: center;
+        font-stretch: semi-expanded;
+        color: black;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        font-size: 12px;
+}
 
 
 /* li {
