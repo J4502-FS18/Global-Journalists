@@ -474,3 +474,9 @@ iframe {
   grid-row:1;
 }
 /* footer tail */
+
+
+/* related articles */
+.relatedbox{
+  border:1px solid black;
+}
