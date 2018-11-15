@@ -11,8 +11,10 @@ header {
 .navbar {
     overflow: hidden;
     background-color: black;
-    margin-left: 100px;
-    margin-right: 100px;
+    display: flex;
+  		flex-direction: row;
+  		justify-content: space-between;
+  		font-size: 13px;
 }
 
 .navbar a {
