@@ -441,6 +441,10 @@ iframe {
   grid-column: 3;
   grid-row: 2/3;
 }
+
+.multimedia{
+  background-color: grey;
+}
 /* grid tail */
 
 /* Article Grid */
@@ -450,13 +454,25 @@ iframe {
   grid-template-columns: 3fr 1fr;
 }
 
+.article-grid h1{
+  grid-column-start:1;
+}
+
+.article-grid img{
+  grid-column-start:1;
+}
 .gridpodcast{
   grid-column-start: 1;
 }
 /* footer head */
 .footer {
     margin-bottom: 20px;
-    grid-column: 3;
-    grid-row: auto;
+    grid-column: 1;
+    grid-row: 8;
+}
+
+.relatedarticles{
+  grid-column:2;
+  grid-row:1;
 }
 /* footer tail */
