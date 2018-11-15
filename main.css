@@ -385,5 +385,7 @@ iframe {
 /* footer head */
 .footer {
     margin-bottom: 20px;
+    grid-column: 3;
+    grid-row: auto;
 }
 /* footer tail */
