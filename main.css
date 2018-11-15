@@ -23,10 +23,10 @@ html {
 body a:link {
 	text-decoration: underline;
 	color: black;
-	margin-left: 20px;
-	margin-right: 20px;
-	padding-right: 25px;
-	padding-left: 25px;
+	margin-left: 60px;
+	margin-right: 60px;
+	padding-right: 55px;
+	padding-left: 55px;
 }
 
 	/*.wrap {
@@ -43,25 +43,15 @@ div {
 
 .clearfix:before .clearfix:after {
 	display: table;
-}
 
-h1 {
-	font-family: Georgia, "Times New Roman", serif;
-	font-style: normal;
-	text-align: center;
-	font-stretch: semi-expanded;
-	color: black;
-	letter-spacing: 1px;
-	text-transform: capitalize;
-	font-size: 15px;
 }
 
 #article-content {
 	background: white;
 	min-height: 200px;
 	display: left;
-	padding-right: 25px;
-	padding-left: 25px;
+	padding-right: 25%;
+	padding-left: 25%;
 	/* padding-left: 25%; */
 	/* padding-right: 25%; */
 
@@ -209,7 +199,7 @@ p {
 		padding-left: 13px;
 		padding-right: 13px;
 }
-#opening {
+#p-opening {
 	color: black;
     font-family: Helvetica, Arial, sans-serif;
 		text-align: left;
@@ -233,9 +223,8 @@ h1 {
 		color: black;
 		letter-spacing: 1px;
 		text-transform: capitalize;
-		font-size: 35px;
-}
-
+		font-size: 30px;
+	}
 h2 {
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: normal;
@@ -279,11 +268,7 @@ h5 {
 	letter-spacing: 1px;
 	text-transform: capitalize;
 	font-size: 15px;
-}
 
-h1 a {
-	color: black;
-	text-decoration: none;
 }
 
 title {
@@ -308,8 +293,8 @@ body {
 	font-size: 13px;
 	line-height: 1.5;
 	text-decoration: none;
-	padding-left: 25px;
-	padding-right: 25px;
+	padding-left: 200px;
+	padding-right: 200px;
 }
 
 #hp-turkey-body {
@@ -331,7 +316,6 @@ li {
 }
 */
 p {
-	width: 100%;
 	color: black;
 	font-size: 15px;
 	font-family: Georgia, "Times New Roman", serif;
