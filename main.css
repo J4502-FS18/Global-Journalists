@@ -9,7 +9,6 @@ header {
 
 /* navbar head */
 .navbar {
-    overflow: hidden;
     background-color: black;
 		display: flex;
 		flex-direction: row;
@@ -27,7 +26,6 @@ header {
 
 .dropdownFreePress, .dropdownCountryRegion, .dropdownAboutUs {
     float: right;
-    overflow: hidden;
 		font-size: 9.5px;
 }
 
