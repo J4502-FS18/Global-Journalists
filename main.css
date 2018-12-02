@@ -527,3 +527,7 @@ iframe {
     grid-row: auto;
 }
 /* footer tail */
+.pc-aboutuscontent {
+  grid-column: 1;
+  grid-row: 1/2;
+}
