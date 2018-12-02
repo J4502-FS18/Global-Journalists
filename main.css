@@ -490,6 +490,21 @@ iframe {
     /* grid-template-rows: 1fr 1fr 1fr; */
 }
 
+.gridpodcast{
+  display: grid;
+  grid-column-gap: 5px;
+  grid-template-columns: 3fr 1fr;
+}
+
+.related-articles{
+  grid-row-start: 1;
+  grid-column-start: 2;
+}
+
+.articletext{
+  grid-column-start: 1'
+}
+
 .hp-spotlightstory {
     grid-column: 1/3;
     grid-row: 1/2;
