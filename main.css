@@ -93,7 +93,7 @@ img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 85%;
 }
 
 #spotlightstory {
@@ -479,7 +479,7 @@ iframe {
     margin-left: auto;
     margin-right: auto;
     height: 100%;
-    width: 100%;
+    width: 85%;
 }
 
 /* grid head */
@@ -494,7 +494,16 @@ iframe {
   display: grid;
   grid-column-gap: ;
   grid-template-columns: 3fr 1fr;
-  grid-template-rows:3fr 1fr 1fr;
+  grid-template-rows:3fr;
+}
+
+ul{
+  width: 85%;
+  margin-left: 35px;
+}
+.podcastarticle{
+  width: 85%;
+  margin: auto;
 }
 
 .relatedarticles{
@@ -511,6 +520,7 @@ grid-row:1;
 .podcasttext{
   grid-column-start: 1;
   grid-row-start:1
+
 }
 
 .article-grid h1{
