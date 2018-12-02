@@ -492,17 +492,33 @@ iframe {
 
 .gridpodcast{
   display: grid;
-  grid-column-gap: 5px;
+  grid-column-gap: ;
   grid-template-columns: 3fr 1fr;
+  grid-template-rows:1fr 1fr 1fr 1fr 1fr;
 }
 
-.related-articles{
-  grid-row-start: 1;
-  grid-column-start: 2;
+.relatedarticles{
+grid-column:2;
+grid-row:1;
+}
+
+.relatedbox{
+  border:1px solid black;
+  grid-column: 2;
+  grid-row:2;
 }
 
 .articletext{
-  grid-column-start: 1'
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.article-grid h1{
+  grid-column-start:1;
+}
+
+.article-grid img{
+  grid-column-start:1;
 }
 
 .hp-spotlightstory {
