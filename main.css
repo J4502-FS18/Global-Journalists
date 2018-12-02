@@ -156,6 +156,12 @@ button {
 	height: 100%;
 	border: right;
 }
+
+#aboutusvideo {
+  border-left: none;
+  border-right: 30px;
+}
+
 p {
 	color: black;
     font-family: Helvetica, Arial, sans-serif;
