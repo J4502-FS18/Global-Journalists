@@ -93,7 +93,7 @@ img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 85%;
+	width: 50%;
 }
 
 #spotlightstory {
@@ -229,6 +229,17 @@ h5 {
 	text-transform: capitalize;
 	font-size: 15px;
 
+}
+
+h6{
+  color: grey;
+	font-size: 15px;
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+	text-align: left;
+	font-stretch: semi-expanded;
+	letter-spacing: 1px;
+  margin-left:;
 }
 
 title {
@@ -478,8 +489,8 @@ iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 100%;
-    width: 85%;
+    height: 300px;
+    width: 400px;
 }
 
 /* grid head */
@@ -499,8 +510,10 @@ iframe {
 
 ul{
   width: 85%;
-  margin-left: 35px;
+  margin-left: 45px;
 }
+
+
 .podcastarticle{
   width: 85%;
   margin: auto;
