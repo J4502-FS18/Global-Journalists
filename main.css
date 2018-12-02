@@ -533,7 +533,16 @@ grid-row:1;
 .podcasttext{
   grid-column-start: 1;
   grid-row-start:1
+}
 
+.podcasttext iframe{
+  width: 85%;
+  height: auto;
+}
+
+.podcasttext img{
+  width:85%;
+  height: auto;
 }
 
 .article-grid h1{
