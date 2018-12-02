@@ -157,11 +157,6 @@ button {
 	border: right;
 }
 
-#aboutusvideo {
-  border-left: none;
-  border-right: 30px;
-}
-
 p {
 	color: black;
     font-family: Helvetica, Arial, sans-serif;
@@ -278,16 +273,16 @@ h14 {
   		text-transform: capitalize;
   		font-size: 30px;
   }
-      h14 {
-        font-family:'Fjalla One', sans-serif, serif;
-        		font-style: normal;
-        		text-align: center;
-        		font-stretch: semi-expanded;
-        		color: black;
-        		letter-spacing: 1px;
-        		text-transform: capitalize;
-        		font-size: 35px;
 
+h13 {
+  font-family: 'Fjalla One', sans-serif, serif;
+  font-style: normal;
+  text-align: left;
+  font-stretch: semi-expanded;
+  color: black;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-size: 30px
 }
 
 .article1 {
