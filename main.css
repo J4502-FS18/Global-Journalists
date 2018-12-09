@@ -804,20 +804,6 @@ margin-left: auto;
 margin-right: auto;
 }
 
-.social img{
-  width:50px;
-  height:50px;
-  border-radius: 9px;
-}
-
-.social ul{
- list-style-type: none;
- display: flex;
- flex-direction: row;
- padding-left: 0;
-}
-
-
 input[type=text], select, textarea {
     width: 100%;
     padding: 20px;
