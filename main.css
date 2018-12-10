@@ -30,12 +30,12 @@ header {
     text-decoration: none;
 }
 
-.dropdownFreePress, .dropdownCountryRegion, .dropdownAboutUs {
+.dropdownProjects, .dropdownMedium, .dropdownAboutUs {
     float: right;
 		font-size: 9.5px;
 }
 
-.dropdownFreePress .dropbtnFreePress, .dropdownCountryRegion .dropbtnCountryRegion, .dropdownAboutUs .dropbtnAboutUs {
+.dropdownProjects .dropbtnProjects, .dropdownMedium .dropbtnMedium, .dropdownAboutUs .dropbtnAboutUs {
     font-size: 16px;
     border: none;
     outline: none;
@@ -48,11 +48,11 @@ header {
 
 
 
-.navbar a:hover, .dropdownFreePress:hover .dropbtnFreePress {
+.navbar a:hover, .dropdownProjects:hover .dropbtnProjects {
     background-color: red;
 }
 
-.navbar a:hover, .dropdownCountryRegion:hover .dropbtnCountryRegion {
+.navbar a:hover, .dropdownMedium:hover .dropbtnMedium {
 	background-color: blue;
 }
 
@@ -85,7 +85,7 @@ header {
     background-color: #ddd;
 }
 
-.dropdownFreePress:hover .dropdown-content, .dropdownCountryRegion:hover .dropdown-content, .dropdownAboutUs:hover .dropdown-content {
+.dropdownProjects:hover .dropdown-content, .dropdownMedium:hover .dropdown-content, .dropdownAboutUs:hover .dropdown-content {
     display: block;
 }
 /* navbar tail */
