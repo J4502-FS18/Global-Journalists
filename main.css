@@ -15,7 +15,7 @@ header {
 
 /* navbar head */
 .navbar {
-    background-color: black;
+    background-color: #404040;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
@@ -30,12 +30,12 @@ header {
     text-decoration: none;
 }
 
-.dropdownFreePress, .dropdownCountryRegion, .dropdownAboutUs {
+.dropdownProjects, .dropdownMedium, .dropdownAboutUs {
     float: right;
 		font-size: 9.5px;
 }
 
-.dropdownFreePress .dropbtnFreePress, .dropdownCountryRegion .dropbtnCountryRegion, .dropdownAboutUs .dropbtnAboutUs {
+.dropdownProjects .dropbtnProjects, .dropdownMedium .dropbtnMedium, .dropdownAboutUs .dropbtnAboutUs {
     font-size: 16px;
     border: none;
     outline: none;
@@ -48,11 +48,11 @@ header {
 
 
 
-.navbar a:hover, .dropdownFreePress:hover .dropbtnFreePress {
+.navbar a:hover, .dropdownProjects:hover .dropbtnProjects {
     background-color: red;
 }
 
-.navbar a:hover, .dropdownCountryRegion:hover .dropbtnCountryRegion {
+.navbar a:hover, .dropdownMedium:hover .dropbtnMedium {
 	background-color: blue;
 }
 
@@ -85,7 +85,7 @@ header {
     background-color: #ddd;
 }
 
-.dropdownFreePress:hover .dropdown-content, .dropdownCountryRegion:hover .dropdown-content, .dropdownAboutUs:hover .dropdown-content {
+.dropdownProjects:hover .dropdown-content, .dropdownMedium:hover .dropdown-content, .dropdownAboutUs:hover .dropdown-content {
     display: block;
 }
 /* navbar tail */
@@ -166,7 +166,7 @@ button {
 p {
 	color: black;
     font-family: Helvetica, Arial, sans-serif;
-		text-align: left;
+		text-align: center;
 		padding-left: 13px;
 		padding-right: 13px;
 }
@@ -282,8 +282,6 @@ body {
 
 }
 
-
-
 #hp-turkey-body {
 	color: black;
 }
@@ -307,6 +305,7 @@ p {
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
 }
+
 p2 {
   font-family:'Fjalla One', sans-serif, serif;
       font-style: light;
@@ -325,9 +324,17 @@ p2 {
             letter-spacing: 1px;
             font-size: 20px;
             margin-top: 20px
-
 }
 
+.temp p {
+  color: black;
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: normal;
+  text-align: center;
+  font-stretch: semi-expanded;
+  letter-spacing: 1px;
+}
 
 p a:visited {
 	text-decoration: underline;
@@ -693,7 +700,7 @@ border: right; */
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: auto;
-    margin-left:0;
+    margin-right: 50px;
     font-family:sans-serif;
     font-weight: 70;
     font-size:18px;
@@ -778,7 +785,8 @@ text-align: center;
     border-width: 2px 0 2px 0;
     border-style:solid;
     margin:10px;
-    margin-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
     display: block;
   }
 
@@ -814,22 +822,22 @@ margin-bottom: 100px;
   left: -50px;
 }
 
-.cu .contactus {
+/* .cu .contactus {
   display:flex;
   flex-flow: column;
   flex-flow: row-reverse;
   align-items: center;
-}
+} */
 
-.cu .container5 {
+/* .cu .container5 {
   display: flex;
   flex-flow: column;
   align-items: center;
-}
-.container5 p{
+} */
+/* .container5 p{
   font-size:15px;
   margin-bottom: 20px;
-}
+} */
 
 input[type=text], select, textarea {
     width: 100%;
