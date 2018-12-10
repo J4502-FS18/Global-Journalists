@@ -274,28 +274,7 @@ body {
     margin-right: 100px;
 
 }
-h14 {
-  font-family:'Fjalla One', sans-serif, serif;
-  		font-style: normal;
-  		text-align: left;
-  		font-stretch: semi-expanded;
-  		color: black;
-  		letter-spacing: 1px;
-  		text-transform: capitalize;
-  		font-size: 30px;
-  }
 
-h13 {
-  font-family: 'Fjalla One', sans-serif, serif;
-  font-style: normal;
-  text-align: left;
-  font-stretch: semi-expanded;
-  color: black;
-  letter-spacing: 1px;
-  text-transform: capitalize;
-  font-size: 30px
-
-}
 
 
 #hp-turkey-body {
@@ -872,5 +851,46 @@ input[type=submit]:hover {
       margin-right: 30px;
       padding-right: 10px;
       padding-left: 10px;
+    }  h14 {
+        font-family:'Fjalla One', sans-serif, serif;
+        		font-style: normal;
+        		text-align: left;
+        		font-stretch: semi-expanded;
+        		color: black;
+        		letter-spacing: 1px;
+        		text-transform: capitalize;
+        		font-size: 30px;
+            }
+        h30 {
+              font-family:'Fjalla One', sans-serif, serif;
+              		font-style: normal;
+              		text-align: left;
+              		font-stretch: semi-expanded;
+              		color: black;
+              		letter-spacing: 1px;
+              		text-transform: capitalize;
+              		font-size: 25px;
+                }
+                  h31 {
+                        font-family:'Fjalla One', sans-serif, serif;
+                            font-style: italic;
+                            text-align: left;
+                            font-stretch: semi-expanded;
+                            color: gray;
+                            letter-spacing: 1px;
+                            text-transform: capitalize;
+                            font-size: 18px;
+        }
 
+      h13 {
+        font-family: 'Fjalla One', sans-serif, serif;
+        font-style: normal;
+        text-align: left;
+        font-stretch: semi-expanded;
+        color: black;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        font-size: 30px
+
+      }
 }
