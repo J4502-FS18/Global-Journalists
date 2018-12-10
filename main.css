@@ -806,22 +806,22 @@ margin-bottom: 100px;
   left: -50px;
 }
 
-.cu .contactus {
+/* .cu .contactus {
   display:flex;
   flex-flow: column;
   flex-flow: row-reverse;
   align-items: center;
-}
+} */
 
-.cu .container5 {
+/* .cu .container5 {
   display: flex;
   flex-flow: column;
   align-items: center;
-}
-.container5 p{
+} */
+/* .container5 p{
   font-size:15px;
   margin-bottom: 20px;
-}
+} */
 
 input[type=text], select, textarea {
     width: 100%;
