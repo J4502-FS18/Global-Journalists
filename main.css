@@ -662,7 +662,15 @@ left: 0;
 width: 100%;
 height: 100%;
 border: right; */
-
+.first
+{  font-family:'Fjalla One', sans-serif, serif;
+      font-style: normal;
+      text-align: left;
+      font-stretch: semi-expanded;
+      color: black;
+      letter-spacing: 1px;
+      text-transform: capitalize;
+      font-size: 30px;}
 .video1 {
   position:relative;
   padding-bottom:20%;
