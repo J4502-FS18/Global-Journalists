@@ -770,7 +770,8 @@ text-align: center;
     border-width: 2px 0 2px 0;
     border-style:solid;
     margin:10px;
-    margin-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
     display: block;
   }
 
@@ -806,22 +807,22 @@ margin-bottom: 100px;
   left: -50px;
 }
 
-.cu .contactus {
+/* .cu .contactus {
   display:flex;
   flex-flow: column;
   flex-flow: row-reverse;
   align-items: center;
-}
+} */
 
-.cu .container5 {
+/* .cu .container5 {
   display: flex;
   flex-flow: column;
   align-items: center;
-}
-.container5 p{
+} */
+/* .container5 p{
   font-size:15px;
   margin-bottom: 20px;
-}
+} */
 
 input[type=text], select, textarea {
     width: 100%;
