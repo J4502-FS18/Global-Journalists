@@ -571,6 +571,11 @@ margin-top: 12px;
 .hp-africa {
     grid-column: 1;
     grid-row: 2;
+    margin-top: 25px;
+}
+
+.hp-africa img{
+    margin-top: 16px;
 }
 
 .hp-africa img{
@@ -580,6 +585,7 @@ margin-top: 12px;
 .hp-turkey {
     grid-column: 2;
     grid-row: 2;
+    margin-top: 25px;
 }
 
 .hp-turkey img{
@@ -589,12 +595,13 @@ margin-top: 12px;
 .hp-video {
     grid-column: 3;
     grid-row: 1/2;
-    margin-top: 73px;
+    margin-top: 65px;
 }
 
 .hp-podcast{
   grid-column: 3;
   grid-row: 2/3;
+    margin-top: 25px;
 }
 
 /* grid tail */
@@ -604,6 +611,7 @@ margin-top: 12px;
     margin-bottom: 20px;
     grid-column: 3;
     grid-row: auto;
+    margin-top: 70px;
 }
 /* footer tail */
 .pc-aboutuscontent {
@@ -896,16 +904,19 @@ input[type=submit]:hover {
               		letter-spacing: 1px;
               		text-transform: capitalize;
               		font-size: 25px;
+                  border-bottom: 1px solid black;
+
                 }
                   h31 {
                         font-family:'Fjalla One', sans-serif, serif;
-                            font-style: italic;
+                            font-style: normal;
                             text-align: left;
                             font-stretch: semi-expanded;
                             color: gray;
                             letter-spacing: 1px;
                             text-transform: capitalize;
-                            font-size: 18px;
+                            font-size: 15px;
+
         }
 
       h13 {
