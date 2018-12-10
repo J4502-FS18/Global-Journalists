@@ -15,7 +15,7 @@ header {
 
 /* navbar head */
 .navbar {
-    background-color: black;
+    background-color: #404040;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
