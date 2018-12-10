@@ -170,6 +170,7 @@ p {
 		padding-left: 13px;
 		padding-right: 13px;
 }
+
 #p-opening {
 	color: black;
     font-family: Helvetica, Arial, sans-serif;
@@ -881,3 +882,5 @@ input[type=submit]:hover {
       padding-left: 10px;
 
 }
+
+body
