@@ -903,10 +903,10 @@ input[type=submit]:hover {
                 }
                   h31 {
                         font-family:'Fjalla One', sans-serif, serif;
-                            font-style: italic;
+                            font-style: normal;
                             text-align: left;
                             font-stretch: semi-expanded;
-                            color: black;
+                            color: gray;
                             letter-spacing: 1px;
                             text-transform: capitalize;
                             font-size: 15px;
