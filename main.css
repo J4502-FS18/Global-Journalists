@@ -532,6 +532,10 @@ grid-row:1;
   grid-row:2;
 }
 
+.relatedbox img{
+  width:100%;
+}
+
 .podcasttext{
   grid-column-start: 1;
   grid-row-start:1
