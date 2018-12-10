@@ -170,6 +170,7 @@ p {
 		padding-left: 13px;
 		padding-right: 13px;
 }
+
 #p-opening {
 	color: black;
     font-family: Helvetica, Arial, sans-serif;
@@ -527,9 +528,14 @@ grid-row:1;
 }
 
 .relatedbox{
-  border-bottom: 1px solid black;
+
   grid-column: 2;
   grid-row:2;
+}
+
+.relatedbox img{
+  width:100%;
+  height: auto;
 }
 
 .podcasttext{
@@ -830,20 +836,6 @@ input[type=submit]:hover {
     margin-bottom: 50px;
     opacity: 0.8;
 }
-
-h13 {
-  font-family: 'Fjalla One', sans-serif, serif;
-  font-style: normal;
-  text-align: center;
-  font-stretch: semi-expanded;
-        color: black;
-        letter-spacing: 1px;
-        text-transform: capitalize;
-        font-size: 30px
-
-      }
-}
-
 .articletext{
   grid-column-start: 1;
   grid-row-start:1
@@ -903,3 +895,18 @@ h13 {
                             text-transform: capitalize;
                             font-size: 18px;
         }
+
+      h13 {
+        font-family: 'Fjalla One', sans-serif, serif;
+        font-style: normal;
+        text-align: left;
+        font-stretch: semi-expanded;
+        color: black;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        font-size: 30px
+
+      }
+}
+
+body
