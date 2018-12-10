@@ -166,7 +166,7 @@ button {
 p {
 	color: black;
     font-family: Helvetica, Arial, sans-serif;
-		text-align: left;
+		text-align: center;
 		padding-left: 13px;
 		padding-right: 13px;
 }
@@ -282,8 +282,6 @@ body {
 
 }
 
-
-
 #hp-turkey-body {
 	color: black;
 }
@@ -307,6 +305,7 @@ p {
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
 }
+
 p2 {
   font-family:'Fjalla One', sans-serif, serif;
       font-style: light;
@@ -325,9 +324,17 @@ p2 {
             letter-spacing: 1px;
             font-size: 20px;
             margin-top: 20px
-
 }
 
+.temp p {
+  color: black;
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-style: normal;
+  text-align: center;
+  font-stretch: semi-expanded;
+  letter-spacing: 1px;
+}
 
 p a:visited {
 	text-decoration: underline;
