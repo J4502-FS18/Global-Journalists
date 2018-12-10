@@ -895,16 +895,19 @@ input[type=submit]:hover {
               		letter-spacing: 1px;
               		text-transform: capitalize;
               		font-size: 25px;
+                  border-bottom: 1px solid black;
+
                 }
                   h31 {
                         font-family:'Fjalla One', sans-serif, serif;
                             font-style: italic;
                             text-align: left;
                             font-stretch: semi-expanded;
-                            color: gray;
+                            color: black;
                             letter-spacing: 1px;
                             text-transform: capitalize;
-                            font-size: 18px;
+                            font-size: 15px;
+
         }
 
       h13 {
