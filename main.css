@@ -563,7 +563,11 @@ ul{
 grid-column:2;
 grid-row:1;
 margin-top: 12px;
+<<<<<<< HEAD
+max-width: 95%;
+=======
 max-width: 70%
+>>>>>>> bb7f3b85fdcf3bddb93b2189f1c59f395dc0949f
 }
 
 .relatedbox{
@@ -591,8 +595,8 @@ max-width: 70%
 
 
 .videoheight iframe{
-  width:95%;
-  height: 450px;
+  width:100%;
+  height: 380px;
 }
 
 .podcasttext img{
@@ -612,7 +616,6 @@ max-width: 70%
 .hp-spotlightstory {
     grid-column: 1/3;
     grid-row: 1/2;
-
 }
 /* .hp-spotlightstory p{
   width: 93%;
