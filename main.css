@@ -341,38 +341,6 @@ p {
   margin-right: -15px;
 }
 
-p2 {
-  font-family:'Fjalla One', sans-serif, serif;
-      font-style: light;
-      text-align: center;
-      font-stretch: semi-expanded;
-      color: black;
-      letter-spacing: 1px;
-      font-size: 20px;
-}
-
-p3 {
-  color: black;
-	font-size: 15px;
-	font-family: Georgia, "Times New Roman", serif;
-	font-style: normal;
-	text-align: left;
-	font-stretch: semi-expanded;
-	letter-spacing: 1px;
-  margin-left: -15px;
-  margin-right: -25px;
-}
-.mediumc {
-  color: black;
-font-size: 15px;
-font-family: Georgia, "Times New Roman", serif;
-font-style: italic;
-text-align: left;
-font-stretch: semi-expanded;
-letter-spacing: 1px;
-margin-left: -5px;
-margin-right: -15px;}
-
 .temp p {
   color: black;
   font-size: 15px;
@@ -516,12 +484,14 @@ background-color:white;
 .hp-spotlightstory img {
     height: auto;
     width: 800px;
+    margin-left: 7px;
 }
 
 .hp-africa img {
     height: 300px;
     width: 400px;
 }
+
 
 .hp-turkey img {
     height: 300px;
@@ -766,7 +736,7 @@ height:100%;
   margin: auto;
   width: 100%;
   position: absolute;
-  display: flex;
+  display: grid;
 }
 
 
