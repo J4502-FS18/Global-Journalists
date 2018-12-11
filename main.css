@@ -562,6 +562,7 @@ ul{
 grid-column:2;
 grid-row:1;
 margin-top: 12px;
+max-width: 95%;
 }
 
 .relatedbox{
