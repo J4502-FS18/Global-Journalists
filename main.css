@@ -195,8 +195,6 @@ p {
 		padding-top: 13px;
 	}
 
-
-	}
 h1 {
     font-family:'Fjalla One', sans-serif, serif;
 		font-style: normal;
@@ -209,13 +207,13 @@ h1 {
 	}
 h2 {
 	font-family:'Fjalla One', sans-serif, serif;
-	font-style: normal;
+	font-style: lighter;
 	text-align: center;
 	color: black;
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
-	text-transform: capitalize;
-	font-size: 15px;
+	font-size: 20px;
+  margin-top: 20px;
 }
 
 h3 {
@@ -239,6 +237,7 @@ h4 {
 	letter-spacing: 1px;
 	text-transform: capitalize;
 	font-size: 15px;
+  font-weight: lighter;
 }
 
 h5 {
@@ -258,10 +257,14 @@ h6 {
 	font-size: 15px;
 	font-family:'Fjalla One', sans-serif, serif;
 	font-style: italic;
-	text-align: left;
+	text-align: center;
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
   margin-left:;
+}
+
+.articlehl h1 {
+  font-size: 40px;
 }
 
 title {
@@ -328,16 +331,7 @@ p2 {
       letter-spacing: 1px;
       font-size: 20px;
 }
-  h10 {
-        font-family:'Fjalla One', sans-serif, serif;
-            font-style: light;
-            text-align: center;
-            font-stretch: semi-expanded;
-            color: black;
-            letter-spacing: 1px;
-            font-size: 20px;
-            margin-top: 20px
-}
+
 
 .temp p {
   color: black;
@@ -495,12 +489,20 @@ background-color:white;
 }
 /* img tail */
 
-iframe {
+.hp-video iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 300px;
     width: 400px;
+}
+
+.hp-podcast iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 400px;
 }
 
 /* grid head */
@@ -582,6 +584,11 @@ margin-top: 12px;
 
 .article-grid img{
   grid-column-start:1;
+}
+
+.videoheight iframe{
+  width: 95%;
+  height:450px;
 }
 
 .hp-spotlightstory {
@@ -765,7 +772,7 @@ border: right; */
     letter-spacing: 2px;
     width: 100%;
 }
-.team-title h17 {
+.team-title h4 {
     margin-bottom: 0px;
     display: block;
     text-transform: uppercase;
@@ -857,16 +864,7 @@ margin-bottom: 100px;
       padding-right: 10px;
       padding-left: 10px;
     }
-    h14 {
-        font-family:'Fjalla One', sans-serif, serif;
-        		font-style: normal;
-        		text-align: left;
-        		font-stretch: semi-expanded;
-        		color: black;
-        		letter-spacing: 1px;
-        		text-transform: capitalize;
-        		font-size: 30px;
-            }
+
         h1 {
               font-family:'Fjalla One', sans-serif, serif;
               		font-style: normal;
@@ -875,30 +873,18 @@ margin-bottom: 100px;
               		color: black;
               		letter-spacing: 1px;
               		text-transform: capitalize;
-              		font-size: 25px;
+              		font-size: 30px;
 
                 }
-                  h31 {
-                        font-family:'Fjalla One', sans-serif, serif;
-                            font-style: normal;
-                            text-align: left;
-                            font-stretch: semi-expanded;
-                            color: gray;
-                            letter-spacing: 1px;
-                            text-transform: capitalize;
-                            font-size: 15px;
+  .articlep h6 {
+      font-family:'Fjalla One', sans-serif, serif;
+      font-style: normal;
+      text-align: center;
+      font-stretch: semi-expanded;
+      color: gray;
+      letter-spacing: 1px;
+      text-transform: capitalize;
+      font-size: 15px;
 
         }
-
-      h13 {
-        font-family: 'Fjalla One', sans-serif, serif;
-        font-style: normal;
-        text-align: left;
-        font-stretch: semi-expanded;
-        color: black;
-        letter-spacing: 1px;
-        text-transform: capitalize;
-        font-size: 30px
-
-      }
 }
