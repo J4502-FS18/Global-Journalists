@@ -551,6 +551,7 @@ ul{
 .aarticle{
   width: 98%;
   margin: auto;
+  max-width: 70%;
 }
 
 
