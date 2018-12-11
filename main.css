@@ -141,10 +141,10 @@ img {
 	border-color: white;
 }
 
-#ourpartners {
+/* #ourpartners {
 	max-width: 150px;
 	height: 100px;
-}
+} */
 
 .photo_aside {
   width: 50%;
@@ -182,6 +182,23 @@ p {
 	color: black;
     font-family: Helvetica, Arial, sans-serif;
 		text-align: center;
+		padding-left: 13px;
+		padding-right: 13px;
+}
+.firstp {
+	color: black;
+    font-family: Helvetica, Arial, sans-serif;
+		text-align: left;
+    font-style: ;
+    font-size: 18px;
+    font-stretch: semi-expanded;
+		padding-left: 13px;
+		padding-right: 13px;
+  }
+.byline {
+  color: gray;
+    font-family: Helvetica, Arial, sans-serif;
+		text-align: left;
 		padding-left: 13px;
 		padding-right: 13px;
 }
@@ -320,6 +337,8 @@ p {
 	text-align: left;
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
+  margin-left: -5px;
+  margin-right: -15px;
 }
 
 p2 {
@@ -330,6 +349,18 @@ p2 {
       color: black;
       letter-spacing: 1px;
       font-size: 20px;
+}
+
+p3 {
+  color: black;
+	font-size: 15px;
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: normal;
+	text-align: left;
+	font-stretch: semi-expanded;
+	letter-spacing: 1px;
+  margin-left: -15px;
+  margin-right: -25px;
 }
 
 
@@ -615,6 +646,7 @@ margin-top: 12px;
   }
   /* .hp-africa p {
     width: 90%;
+    margin-left: 15px;
     margin-left: 15px */
   }
 
