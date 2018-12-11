@@ -473,12 +473,20 @@ background-color:white;
 }
 /* img tail */
 
-iframe {
+.hp-video iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 300px;
     width: 400px;
+}
+
+.hp-podcast iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 400px;
 }
 
 /* grid head */
@@ -544,7 +552,6 @@ margin-top: 12px;
 }
 
 
-
 .podcasttext iframe{
   width: 95%;
   height: auto;
@@ -561,6 +568,11 @@ margin-top: 12px;
 
 .article-grid img{
   grid-column-start:1;
+}
+
+.videoheight iframe{
+  width: 95%;
+  height:450px;
 }
 
 .hp-spotlightstory {
@@ -643,7 +655,6 @@ border-color: #ffffff;
 border-width: 2px 0 2px 0;
 border-style:solid;
 margin:10px;
-font-family: 'Fjalla One', sans-serif, serif;
 }
 
 .container2{
@@ -762,7 +773,6 @@ border: right; */
 .staffs{
   margin-left:10px;
   text-align: left;
-  font-family: 'Fjalla One', sans-serif, serif;
 }
 
 .staffs p{
@@ -787,7 +797,6 @@ text-align: center;
     margin-top: 50px;
     margin-bottom: 20px;
     display: block;
-    font-family: 'Fjalla One', sans-serif, serif;
   }
 
 .platform {
