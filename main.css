@@ -99,7 +99,7 @@ img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	width: 100%;
 }
 
 #spotlightstory {
@@ -181,17 +181,7 @@ p {
 	}
 
 
-	}
-h1 {
-    font-family: Georgia, "Times New Roman", serif;
-		font-style: normal;
-		text-align: center;
-		font-stretch: semi-expanded;
-		color: black;
-		letter-spacing: 1px;
-		text-transform: capitalize;
-		font-size: 30px;
-	}
+
 h2 {
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: normal;
@@ -953,5 +943,20 @@ input[type=submit]:hover {
 
       }
 }
-
-body
+h1 {
+    /* font-family: Georgia, "Times New Roman", serif;
+		font-style: normal;
+		text-align: center;
+		font-stretch: semi-expanded;
+		color: black;
+		letter-spacing: 1px;
+		text-transform: capitalize;
+		font-size: 30px; */
+    font-family:'Fjalla One', sans-serif, serif;
+        font-style: normal;
+        text-align: left;
+        font-stretch: semi-expanded;
+        color: black;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        font-size: 30px;
