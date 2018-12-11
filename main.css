@@ -185,6 +185,13 @@ p {
 		padding-left: 13px;
 		padding-right: 13px;
 }
+.byline {
+  color: gray;
+    font-family: Helvetica, Arial, sans-serif;
+		text-align: left;
+		padding-left: 13px;
+		padding-right: 13px;
+}
 
 #p-opening {
 	color: black;
