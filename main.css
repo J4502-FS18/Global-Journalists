@@ -521,6 +521,10 @@ ul{
   width: 97%;
   margin: auto;
 }
+.aarticle{
+  width: 88%;
+  margin: auto;
+}
 
 
 
@@ -611,7 +615,14 @@ margin-top: 12px;
   grid-row: 2/3;
     margin-top: 25px;
 }
+.articlecaption {
+  font-family: 'Open Sans', sans-serif, serif;
+  font-style: italic;
+  size: 15px;
+  margin-bottom: 25px;
 
+
+}
 /* grid tail */
 
 /* footer head */
@@ -644,6 +655,7 @@ border-color: #ffffff;
 border-width: 2px 0 2px 0;
 border-style:solid;
 margin:10px;
+font-family: 'Fjalla One', sans-serif, serif;
 }
 
 .container2{
@@ -672,10 +684,7 @@ border: right; */
 .first {
   font-family:'Fjalla One', sans-serif, serif;
       font-style: normal;
-      text-align: left;
-      font-stretch: semi-expanded;
       color: black;
-      letter-spacing: 1px;
       text-transform: capitalize;
       font-size: 30px;
     }
@@ -765,6 +774,7 @@ border: right; */
 .staffs{
   margin-left:10px;
   text-align: left;
+  font-family: 'Fjalla One', sans-serif, serif;
 }
 
 .staffs p{
@@ -789,6 +799,7 @@ text-align: center;
     margin-top: 50px;
     margin-bottom: 20px;
     display: block;
+    font-family: 'Fjalla One', sans-serif, serif;
   }
 
 .platform {
