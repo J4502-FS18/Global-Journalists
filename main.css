@@ -756,7 +756,7 @@ border: right; */
     letter-spacing: 2px;
     width: 100%;
 }
-.team-title h17 {
+.team-title h4 {
     margin-bottom: 0px;
     display: block;
     text-transform: uppercase;
@@ -848,16 +848,7 @@ margin-bottom: 100px;
       padding-right: 10px;
       padding-left: 10px;
     }
-    h14 {
-        font-family:'Fjalla One', sans-serif, serif;
-        		font-style: normal;
-        		text-align: left;
-        		font-stretch: semi-expanded;
-        		color: black;
-        		letter-spacing: 1px;
-        		text-transform: capitalize;
-        		font-size: 30px;
-            }
+
         h1 {
               font-family:'Fjalla One', sans-serif, serif;
               		font-style: normal;
@@ -880,16 +871,4 @@ margin-bottom: 100px;
       font-size: 15px;
 
         }
-
-      h13 {
-        font-family: 'Fjalla One', sans-serif, serif;
-        font-style: normal;
-        text-align: left;
-        font-stretch: semi-expanded;
-        color: black;
-        letter-spacing: 1px;
-        text-transform: capitalize;
-        font-size: 30px
-
-      }
 }
