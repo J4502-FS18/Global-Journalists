@@ -238,7 +238,7 @@ h5 {
 
 }
 
-h6{
+h6 {
   color: grey;
 	font-size: 15px;
 	font-family: Georgia, "Times New Roman", serif;
@@ -619,6 +619,8 @@ margin-top: 12px;
     grid-column: 3;
     grid-row: auto;
     margin-top: 70px;
+    background-color: black;
+    color: white;
 }
 /* footer tail */
 .pc-aboutuscontent {
