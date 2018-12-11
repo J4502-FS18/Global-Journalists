@@ -179,8 +179,6 @@ p {
 		padding-top: 13px;
 	}
 
-
-	}
 h1 {
     font-family:'Fjalla One', sans-serif, serif;
 		font-style: normal;
@@ -193,13 +191,13 @@ h1 {
 	}
 h2 {
 	font-family:'Fjalla One', sans-serif, serif;
-	font-style: normal;
+	font-style: lighter;
 	text-align: center;
 	color: black;
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
-	text-transform: capitalize;
-	font-size: 15px;
+	font-size: 20px;
+  margin-top: 20px;
 }
 
 h3 {
@@ -223,6 +221,7 @@ h4 {
 	letter-spacing: 1px;
 	text-transform: capitalize;
 	font-size: 15px;
+  font-weight: lighter;
 }
 
 h5 {
@@ -242,10 +241,14 @@ h6 {
 	font-size: 15px;
 	font-family:'Fjalla One', sans-serif, serif;
 	font-style: italic;
-	text-align: left;
+	text-align: center;
 	font-stretch: semi-expanded;
 	letter-spacing: 1px;
   margin-left:;
+}
+
+.articlehl h1 {
+  font-size: 40px;
 }
 
 title {
@@ -312,16 +315,7 @@ p2 {
       letter-spacing: 1px;
       font-size: 20px;
 }
-  h10 {
-        font-family:'Fjalla One', sans-serif, serif;
-            font-style: light;
-            text-align: center;
-            font-stretch: semi-expanded;
-            color: black;
-            letter-spacing: 1px;
-            font-size: 20px;
-            margin-top: 20px
-}
+
 
 .temp p {
   color: black;
@@ -863,18 +857,18 @@ margin-bottom: 100px;
               		color: black;
               		letter-spacing: 1px;
               		text-transform: capitalize;
-              		font-size: 25px;
+              		font-size: 30px;
 
                 }
-                  h31 {
-                        font-family:'Fjalla One', sans-serif, serif;
-                            font-style: normal;
-                            text-align: left;
-                            font-stretch: semi-expanded;
-                            color: gray;
-                            letter-spacing: 1px;
-                            text-transform: capitalize;
-                            font-size: 15px;
+  .articlep h6 {
+      font-family:'Fjalla One', sans-serif, serif;
+      font-style: normal;
+      text-align: center;
+      font-stretch: semi-expanded;
+      color: gray;
+      letter-spacing: 1px;
+      text-transform: capitalize;
+      font-size: 15px;
 
         }
 
