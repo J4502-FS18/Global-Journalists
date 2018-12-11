@@ -544,7 +544,7 @@ ul{
 
 
 .podcastarticle{
-  width: 97%;
+  width: 95%;
   margin: auto;
 }
 
@@ -585,6 +585,7 @@ margin-top: 12px;
   height: auto;
 }
 
+
 .videoheight iframe{
   width:95%;
   height: 450px;
@@ -603,10 +604,6 @@ margin-top: 12px;
   grid-column-start:1;
 }
 
-.videoheight iframe{
-  width: 95%;
-  height:450containerpx;
-}
 
 .hp-spotlightstory {
     grid-column: 1/3;
