@@ -537,6 +537,7 @@ ul{
   width: 97%;
   margin: auto;
 }
+
 .aarticle{
   width: 98%;
   margin: auto;
@@ -703,9 +704,9 @@ height:100%;
   grid-column: 1;
   grid-row:1;
   margin: auto;
-  width: 95%;
+  width: 100%;
   position: absolute;
-  display: grid;
+  display: flex;
 }
 
 /* position: absolute;
@@ -739,16 +740,17 @@ border: right; */
 
     }
 
-.intro {
-    margin-top: 10px;
-    margin-bottom: 10px;
+.intro p{
     margin-left: auto;
-    margin-right: 50px;
+    margin-right: auto;
+    margin-top: 300px;
+    margin-bottom: auto;
     font-family:sans-serif;
     font-weight: 70;
     font-size:18px;
     max-width: 400px;
-    display:block;
+    display:grid;
+    justify-content: center;
 }
 
 .businesscard {
