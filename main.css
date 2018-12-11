@@ -590,8 +590,8 @@ max-width: 95%;
 
 
 .videoheight iframe{
-  width:95%;
-  height: 450px;
+  width:100%;
+  height: 380px;
 }
 
 .podcasttext img{
