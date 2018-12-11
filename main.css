@@ -574,6 +574,11 @@ margin-top: 12px;
   height: auto;
 }
 
+.videoheight iframe{
+  width:95%;
+  height: 450px;
+}
+
 .podcasttext img{
   width:95%;
   height: auto;
@@ -723,6 +728,7 @@ height:100%;
   position: absolute;
   display: flex;
 }
+
 
 /* position: absolute;
 top: 0;
