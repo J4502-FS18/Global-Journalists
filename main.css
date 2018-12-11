@@ -549,14 +549,10 @@ margin-top: 12px;
   width: 98%;
 }
 
-.podcasttext ul{
-  grid-column-start: 1;
-  grid-row-start:1;
-  width: 98%;
-}
+
 
 .podcasttext iframe{
-  width: 85%;
+  width: 95%;
   height: auto;
 }
 
