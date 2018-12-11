@@ -600,7 +600,14 @@ margin-top: 12px;
   grid-row: 2/3;
     margin-top: 25px;
 }
+.articlecaption {
+  font-family: 'Open Sans', sans-serif, serif;
+  font-style: italic;
+  size: 15px;
+  margin-bottom: 25px;
 
+
+}
 /* grid tail */
 
 /* footer head */
@@ -662,14 +669,11 @@ width: 100%;
 height: 100%;
 border: right; */
 .first
-{  font-family:'Fjalla One', sans-serif, serif;
+{  font-family: 'Fjalla One,' sans-serif, serif;
       font-style: normal;
-      text-align: left;
-      font-stretch: semi-expanded;
       color: black;
-      letter-spacing: 1px;
       text-transform: capitalize;
-      font-size: 30px;}
+      font-size: 20px;}
 .video1 {
   position:relative;
   padding-bottom:20%;
