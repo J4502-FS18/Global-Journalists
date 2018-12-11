@@ -362,7 +362,16 @@ p3 {
   margin-left: -15px;
   margin-right: -25px;
 }
-
+.mediumc {
+  color: black;
+font-size: 15px;
+font-family: Georgia, "Times New Roman", serif;
+font-style: italic;
+text-align: left;
+font-stretch: semi-expanded;
+letter-spacing: 1px;
+margin-left: -5px;
+margin-right: -15px;}
 
 .temp p {
   color: black;
