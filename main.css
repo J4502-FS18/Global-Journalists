@@ -110,9 +110,6 @@ img {
 		border-color: white;
 }
 
-#spotlightstory a:hover a:active {
-
-}
 
 #africa {
 	max-width: 100px;
@@ -145,6 +142,7 @@ button {
 	border-top: blue
 	text: large;
 }
+
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
@@ -184,7 +182,7 @@ p {
 
 	}
 h1 {
-    font-family: Georgia, "Times New Roman", serif;
+    font-family:'Fjalla One', sans-serif, serif;
 		font-style: normal;
 		text-align: center;
 		font-stretch: semi-expanded;
@@ -194,7 +192,7 @@ h1 {
 		font-size: 30px;
 	}
 h2 {
-	font-family: Georgia, "Times New Roman", serif;
+	font-family:'Fjalla One', sans-serif, serif;
 	font-style: normal;
 	text-align: center;
 	color: black;
@@ -205,7 +203,7 @@ h2 {
 }
 
 h3 {
-	font-family: Georgia, "Times New Roman", serif;
+	font-family:'Fjalla One', sans-serif, serif;
 	font-style: normal;
 	text-align: center;
 	color: black;
@@ -217,7 +215,7 @@ h3 {
 }
 
 h4 {
-	font-family: Georgia, "Times New Roman", serif;
+	font-family: 'Fjalla One', sans-serif, serif;
 	font-style: normal;
 	text-align: center;
 	color: black;
@@ -228,7 +226,7 @@ h4 {
 }
 
 h5 {
-	font-family: Georgia, "Times New Roman", serif;
+	font-family: 'Fjalla One', sans-serif, serif;
 	font-style: normal;
 	text-align: center;
 	color: black;
@@ -242,7 +240,7 @@ h5 {
 h6 {
   color: grey;
 	font-size: 15px;
-	font-family: Georgia, "Times New Roman", serif;
+	font-family:'Fjalla One', sans-serif, serif;
 	font-style: italic;
 	text-align: left;
 	font-stretch: semi-expanded;
@@ -259,8 +257,6 @@ title {
 	letter-spacing: 1px;
 	text-transform: capitalize;
 	font-size: 100px;
-
-
 }
 
 body {
@@ -346,7 +342,8 @@ p a:hover {
 	text-decoration: underline;
 	color: black;
 }
-@media screen and (min-width: 700px)
+
+@media screen and (min-width: 700px) {
 
 }
 
@@ -366,7 +363,6 @@ p a:hover {
         width: 80%;
     }
 
-
 }
 
 @media screen and (min-width: 800px) {
@@ -378,8 +374,6 @@ p a:hover {
       margin: 5px;
     }
 
-
-
 }
 
 @media screen and (min-width:1000px) {
@@ -388,10 +382,8 @@ p a:hover {
     /* grid-template-columns: 200px 1fr  */
     grid-gap: 5px;
     max-width: 700px;
-
-
-
-      }
+}
+}
 
 @media screen and (min-width: 600px) {
 
@@ -407,6 +399,7 @@ p a:hover {
         max-width: 60em;
     }
   }
+
   .menu-trigger {
   	order: 1;
   	font-size: 1.75em;
@@ -669,7 +662,7 @@ left: 0;
 width: 100%;
 height: 100%;
 border: right; */
-.first{
+.first {
   font-family:'Fjalla One', sans-serif, serif;
       font-style: normal;
       text-align: left;
@@ -697,7 +690,7 @@ border: right; */
 
     }
 
-.intro{
+.intro {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: auto;
