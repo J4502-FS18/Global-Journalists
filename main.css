@@ -141,10 +141,10 @@ img {
 	border-color: white;
 }
 
-/* #ourpartners {
+#ourpartners {
 	max-width: 150px;
 	height: 100px;
-} */
+}
 
 .photo_aside {
   width: 50%;
@@ -483,7 +483,7 @@ background-color:white;
 
 .hp-spotlightstory img {
     height: auto;
-    width: 800px;
+    max-width: 785px;
     margin-left: 7px;
 }
 
