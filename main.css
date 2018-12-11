@@ -345,7 +345,7 @@ p a:hover {
 
 @media screen and (min-width: 700px) {
 
-}
+
 
 
 @media screen and (min-width: 450px) {
@@ -547,11 +547,14 @@ margin-top: 12px;
 
 .podcasttext{
   grid-column-start: 1;
-  grid-row-start:1
+  grid-row-start:1;
+  width: 98%;
 }
 
+
+
 .podcasttext iframe{
-  width: 85%;
+  width: 95%;
   height: auto;
 }
 
@@ -851,10 +854,10 @@ margin-bottom: 100px;
         		text-transform: capitalize;
         		font-size: 30px;
             }
-        h30 {
+        h1 {
               font-family:'Fjalla One', sans-serif, serif;
               		font-style: normal;
-              		text-align: left;
+              		text-align: center;
               		font-stretch: semi-expanded;
               		color: black;
               		letter-spacing: 1px;
