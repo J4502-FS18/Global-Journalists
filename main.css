@@ -546,6 +546,8 @@ ul{
 .podcastarticle{
   width: 97%;
   margin: auto;
+  max-width: 70%
+
 }
 
 .aarticle{
