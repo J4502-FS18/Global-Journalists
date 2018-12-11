@@ -341,19 +341,6 @@ p2 {
       font-size: 20px;
 }
 
-p3 {
-  color: black;
-	font-size: 15px;
-	font-family: Georgia, "Times New Roman", serif;
-	font-style: normal;
-	text-align: left;
-	font-stretch: semi-expanded;
-	letter-spacing: 1px;
-  margin-left: -15px;
-  margin-right: -25px;
-}
-
-
 .temp p {
   color: black;
   font-size: 15px;
@@ -497,6 +484,7 @@ background-color:white;
 .hp-spotlightstory img {
     height: auto;
     width: 800px;
+    margin-left: 7px;
 }
 
 .hp-africa img {
