@@ -578,7 +578,7 @@ margin-top: 12px;
 
 .videoheight iframe{
   width: 95%;
-  height:450px;
+  height:450containerpx;
 }
 
 .hp-spotlightstory {
@@ -664,13 +664,22 @@ margin:10px;
 }
 
 .container2{
-  display: flex;
-  flex-direction: row;
-  margin-left: auto;
-  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:auto;
+  margin-left: 15px;
+  margin-right: 15px;
   margin-top:10px;
   justify-content: center;
   width: 100%;
+}
+
+.inro p{
+  grid-column:2;
+  grid-row: 1;
+  width: 95%;
+  position: absolute;
+  display: grid;
 }
 
 .video1 {
@@ -678,6 +687,15 @@ margin-top:10px;
 margin-bottom:10px;
 width:100%;
 height:100%;
+}
+
+.aboutusvideo{
+  grid-column: 1;
+  grid-row:1;
+  margin: auto;
+  width: 95%;
+  position: absolute;
+  display: grid;
 }
 
 /* position: absolute;
@@ -830,7 +848,7 @@ margin-bottom: 100px;
   grid-row-start:1
 }
 
-.articletext iframe{
+.articletext {
   width: 85%;
   height: auto;
 }
