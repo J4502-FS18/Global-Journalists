@@ -648,6 +648,7 @@ border-color: #ffffff;
 border-width: 2px 0 2px 0;
 border-style:solid;
 margin:10px;
+font-family: 'Fjalla One', sans-serif, serif;
 }
 
 .container2{
@@ -766,6 +767,7 @@ border: right; */
 .staffs{
   margin-left:10px;
   text-align: left;
+  font-family: 'Fjalla One', sans-serif, serif;
 }
 
 .staffs p{
@@ -790,6 +792,7 @@ text-align: center;
     margin-top: 50px;
     margin-bottom: 20px;
     display: block;
+    font-family: 'Fjalla One', sans-serif, serif;
   }
 
 .platform {
