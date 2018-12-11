@@ -483,6 +483,7 @@ background-color:white;
     width: 400px;
 }
 
+
 .hp-turkey img {
     height: 300px;
     width: 400px;
@@ -725,7 +726,7 @@ height:100%;
   margin: auto;
   width: 100%;
   position: absolute;
-  display: flex;
+  display: grid;
 }
 
 
