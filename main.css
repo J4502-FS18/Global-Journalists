@@ -520,6 +520,7 @@ background-color:white;
     display: inline-grid;
     grid-column-gap: 5px;
     grid-template-columns: 1fr 1fr 1fr;
+    max-width: 90%;
     /* grid-template-rows: 1fr 1fr 1fr; */
 }
 
@@ -546,6 +547,8 @@ ul{
 .podcastarticle{
   width: 95%;
   margin: auto;
+  max-width: 70%;
+
 }
 
 .aarticle{
